@@ -7,8 +7,8 @@ import webbrowser
 
 ### Get On-Prem HCX Details ###
 hcx_username = 'cloudadmin@vmc.local'
-hcx_password = '5rFqJ2ywR*jR-FC'
-hcxmgr_fqdn = 'hcx.sddc-52-11-120-95.vmwarevmc.com'
+hcx_password = '3dfgvJ2ywR*jR-BCDRT'
+hcxmgr_fqdn = 'hcx.sddc-53-14-123-91.vmwarevmc.com'
 
 print("Please hit Enter to accept the defaults.")
 
