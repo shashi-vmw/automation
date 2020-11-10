@@ -1,0 +1,356 @@
+{"sitePair": {
+  "success" : true,
+  "completed" : true,
+  "time" : 1604396078542,
+  "version" : "1.0",
+  "data" : {
+    "items" : [ {
+      "linkEstablished" : 1601589745758,
+      "isBiDirectional" : false,
+      "status" : "ok",
+      "lastUpdated" : 1601589745764,
+      "creationDate" : 1601589745764,
+      "isDeleted" : false,
+      "isInbound" : true,
+      "linkUuid" : "33e7e65c-ea8c-48d4-9d44-5b57bba36bed",
+      "endpointId" : "20190904180212801-b2471705-83fb-4898-9fed-bafda109eef9",
+      "endpointType" : "hcm",
+      "url" : "ORIGINATOR_URL",
+      "username" : "rperez@corp.local",
+      "uuid" : "20190904180212801-b2471705-83fb-4898-9fed-bafda109eef9",
+      "orgId" : "20190904180212801-b2471705-83fb-4898-9fed-bafda109eef9",
+      "nodeType" : "realm",
+      "cloudName" : "cs-hcx1.corp.local-enterprise",
+      "name" : "cs-hcx1.corp.local-enterprise",
+      "cloudType" : "vc",
+      "authType" : "password",
+      "isValid" : true,
+      "location" : {
+        "city" : "Seattle",
+        "country" : "United States of America",
+        "cityAscii" : "Seattle",
+        "latitude" : 47.57000205,
+        "longitude" : -122.339985
+      },
+      "version" : "3.5.3.17114088",
+      "remoteStatus" : "ok"
+    } ]
+  }
+},"networkProfile": [
+    {
+        "name": "directConnectNetwork1",
+        "objectId": "network-5bc50a41-5ec9-4ffa-b722-ee86e0a87a90",
+        "description": "Upgraded from HCX Components",
+        "state": "REALIZED",
+        "l3TenantManaged": true,
+        "tags": ["direct-connect"],
+        "allowTrunkInterfaces": false,
+        "mtu": 1500,
+        "ipScopesConfig": [{"source": "LOCAL"}],
+        "ipScopes": [{
+            "networkIpRanges": [{
+                "startAddress": "10.72.66.241",
+                "endAddress": "10.72.66.250"
+            }],
+            "prefixLength": 28
+        }],
+        "backings": [{
+            "vCenterInstanceUuid": "4f36cf3a-023e-41c3-990f-220ac102e482",
+            "backingId": "a29f59a7-0f07-413f-bcd6-ed177cd5b348",
+            "type": "nsx.LogicalSwitch",
+            "backingName": "a29f59a7-0f07-413f-bcd6-ed177cd5b348"
+        }],
+        "ownedBySystem": true
+    },
+    {
+        "name": "externalNetwork",
+        "objectId": "network-d86696d1-ad08-43ba-88be-d6e02b03c016",
+        "description": "Upgraded from HCX Components",
+        "state": "REALIZED",
+        "l3TenantManaged": true,
+        "allowTrunkInterfaces": false,
+        "mtu": 1500,
+        "ipScopesConfig": [{"source": "LOCAL"}],
+        "ipScopes": [{
+            "networkIpRanges": [
+                {
+                    "startAddress": "44.238.140.231",
+                    "endAddress": "44.238.140.231"
+                },
+                {
+                    "startAddress": "44.240.99.80",
+                    "endAddress": "44.240.99.80"
+                }
+            ],
+            "prefixLength": 0
+        }],
+        "backings": [{
+            "vCenterInstanceUuid": "4f36cf3a-023e-41c3-990f-220ac102e482",
+            "backingId": "b6f5285e-c9e6-4ead-ac7e-606843ff901d",
+            "type": "nsx.LogicalSwitch",
+            "backingName": "b6f5285e-c9e6-4ead-ac7e-606843ff901d"
+        }],
+        "ownedBySystem": true
+    },
+    {
+        "name": "mgmt-app-network",
+        "objectId": "network-9a3ae521-0d9d-4ac8-afb1-4bbf5fbdaef0",
+        "description": "Upgraded from HCX Components",
+        "state": "REALIZED",
+        "l3TenantManaged": false,
+        "allowTrunkInterfaces": false,
+        "mtu": 1500,
+        "ipScopesConfig": [{"source": "LOCAL"}],
+        "ipScopes": [{
+            "networkIpRanges": [{
+                "startAddress": "10.73.119.216",
+                "endAddress": "10.73.119.231"
+            }],
+            "prefixLength": 26,
+            "gateway": "10.73.119.193"
+        }],
+        "backings": [{
+            "vCenterInstanceUuid": "4f36cf3a-023e-41c3-990f-220ac102e482",
+            "backingId": "mgmt-app-network",
+            "type": "nsx.LogicalSwitch",
+            "backingName": "mgmt-app-network"
+        }],
+        "ownedBySystem": true
+    }
+],"computeProfile": {
+  "items" : [ {
+    "computeProfileId" : "29e1d54f-0342-46d0-abe2-a69d18accf0e",
+    "name" : "ComputeProfile(vcenter)",
+    "location" : "20201001203218503-49e08e11-beca-4413-b106-0e778595ed3c",
+    "locationName" : "HCX Cloud - CSLAB-M12",
+    "state" : "VALID",
+    "compute" : [ {
+      "cmpId" : "4f36cf3a-023e-41c3-990f-220ac102e482",
+      "cmpName" : "vcenter.sddc-52-11-120-95.vmwarevmc.com",
+      "cmpType" : "VC",
+      "type" : "Datacenter",
+      "id" : "datacenter-3",
+      "name" : "SDDC-Datacenter"
+    } ],
+    "services" : [ {
+      "name" : "VMOTION"
+    }, {
+      "name" : "WANOPT"
+    }, {
+      "name" : "NETWORK_EXTENSION"
+    }, {
+      "name" : "DISASTER_RECOVERY"
+    }, {
+      "name" : "BULK_MIGRATION"
+    }, {
+      "name" : "INTERCONNECT"
+    }, {
+      "name" : "RAV"
+    } ],
+    "deploymentContainer" : {
+      "compute" : [ {
+        "cmpId" : "4f36cf3a-023e-41c3-990f-220ac102e482",
+        "cmpName" : "vcenter.sddc-52-11-120-95.vmwarevmc.com",
+        "type" : "ResourcePool",
+        "id" : "resgroup-46",
+        "name" : "Mgmt-ResourcePool"
+      } ],
+      "storage" : [ {
+        "cmpId" : "4f36cf3a-023e-41c3-990f-220ac102e482",
+        "cmpName" : "vcenter.sddc-52-11-120-95.vmwarevmc.com",
+        "type" : "Datastore",
+        "id" : "datastore-17",
+        "name" : "vsanDatastore"
+      } ]
+    },
+    "networks" : [ {
+      "id" : "network-d86696d1-ad08-43ba-88be-d6e02b03c016",
+      "name" : "externalNetwork",
+      "tags" : [ "uplink" ]
+    }, {
+      "id" : "network-9a3ae521-0d9d-4ac8-afb1-4bbf5fbdaef0",
+      "name" : "mgmt-app-network",
+      "tags" : [ "management", "vmotion" ]
+    } ],
+    "switches" : [ {
+      "cmpId" : "4f36cf3a-023e-41c3-990f-220ac102e482",
+      "id" : "nsxt-internal",
+      "type" : "nsxt-internal",
+      "name" : "NSX-T NVDS",
+      "maxMtu" : 1600
+    } ],
+    "lastTaskDetails" : {
+      "interconnectTaskId" : "84dca3cf-4497-4daa-bbaa-d48346dc4ec7",
+      "type" : "computeProfileCreate",
+      "status" : "SUCCESS",
+      "message" : ""
+    }
+  } ]
+},"serviceMesh": {
+  "items" : [ {
+    "serviceMeshId" : "servicemesh-5d1145a6-0efe-46fe-b99a-66526f279e2a",
+    "name" : "hcx-vsstest-temp",
+    "updateAvailable" : true,
+    "wanoptConfig" : {
+      "uplinkMaxBandwidth" : 10000000
+    },
+    "services" : [ {
+      "name" : "NETWORK_EXTENSION"
+    } ],
+    "computeProfiles" : [ {
+      "endpointId" : "20190904180212801-b2471705-83fb-4898-9fed-bafda109eef9",
+      "endpointName" : "cs-hcx1.corp.local-enterprise",
+      "computeProfileId" : "bfb205cb-5361-47b4-ace5-ee968e889018",
+      "computeProfileName" : "cslab-profile",
+      "locationType" : "hcm",
+      "networks" : [ {
+        "id" : "network-89d85ff5-e912-4e36-92c5-93604f805f32",
+        "name" : "VLAN1050",
+        "tags" : [ "uplink" ]
+      } ]
+    }, {
+      "endpointId" : "20201001203218503-49e08e11-beca-4413-b106-0e778595ed3c",
+      "endpointName" : "HCX Cloud - CSLAB-M12",
+      "computeProfileId" : "29e1d54f-0342-46d0-abe2-a69d18accf0e",
+      "computeProfileName" : "ComputeProfile(vcenter)",
+      "locationType" : "nsp",
+      "networks" : [ {
+        "id" : "network-5bc50a41-5ec9-4ffa-b722-ee86e0a87a90",
+        "name" : "directConnectNetwork1",
+        "tags" : [ "uplink" ]
+      } ]
+    } ],
+    "trafficEnggCfg" : {
+      "isAppPathResiliencyEnabled" : false,
+      "isTcpFlowConditioningEnabled" : false
+    },
+    "state" : "COMMITTED",
+    "lastTaskDetails" : {
+      "interconnectTaskId" : "76152a0e-cb5a-4538-8e77-f3e61cf883c8",
+      "type" : "createServiceMesh",
+      "status" : "RUNNING"
+    },
+    "status" : {
+      "timestamp" : 1604396023,
+      "services" : [ {
+        "serviceName" : "NETWORK_EXTENSION",
+        "status" : "up",
+        "reason" : [ ]
+      } ]
+    }
+  }, {
+    "serviceMeshId" : "servicemesh-81926a99-fced-46e9-bfd9-e3e26c71f6ef",
+    "name" : "CSLABM12",
+    "updateAvailable" : false,
+    "switchPairCount" : [ {
+      "switches" : [ {
+        "cmpId" : "9074e97a-8a45-4bf5-9a5c-7a7aefa5dfb5",
+        "id" : "/infra/sites/default/enforcement-points/default/transport-zones/dba0cec5-aa47-42e7-9198-54d83ab0c570",
+        "type" : "VLAN_BACKED",
+        "name" : "TZ-VLAN"
+      }, {
+        "cmpId" : "4f36cf3a-023e-41c3-990f-220ac102e482",
+        "id" : "nsxt-internal",
+        "type" : "nsxt-internal",
+        "name" : "NSX-T NVDS"
+      } ],
+      "l2cApplianceCount" : 1
+    }, {
+      "switches" : [ {
+        "cmpId" : "9074e97a-8a45-4bf5-9a5c-7a7aefa5dfb5",
+        "id" : "/infra/sites/default/enforcement-points/default/transport-zones/29c2bebe-12e4-4b4f-b8a1-e6642813efa7",
+        "type" : "OVERLAY_STANDARD",
+        "name" : "TZ-OVERLAY"
+      }, {
+        "cmpId" : "4f36cf3a-023e-41c3-990f-220ac102e482",
+        "id" : "nsxt-internal",
+        "type" : "nsxt-internal",
+        "name" : "NSX-T NVDS"
+      } ],
+      "l2cApplianceCount" : 1
+    } ],
+    "wanoptConfig" : {
+      "uplinkMaxBandwidth" : 10000000
+    },
+    "services" : [ {
+      "name" : "INTERCONNECT"
+    }, {
+      "name" : "WANOPT"
+    }, {
+      "name" : "VMOTION"
+    }, {
+      "name" : "BULK_MIGRATION"
+    }, {
+      "name" : "NETWORK_EXTENSION"
+    }, {
+      "name" : "DISASTER_RECOVERY"
+    }, {
+      "name" : "RAV"
+    } ],
+    "computeProfiles" : [ {
+      "endpointId" : "20201001203218503-49e08e11-beca-4413-b106-0e778595ed3c",
+      "endpointName" : "HCX Cloud - CSLAB-M12",
+      "computeProfileId" : "29e1d54f-0342-46d0-abe2-a69d18accf0e",
+      "computeProfileName" : "ComputeProfile(vcenter)",
+      "locationType" : "nsp",
+      "networks" : [ {
+        "id" : "network-5bc50a41-5ec9-4ffa-b722-ee86e0a87a90",
+        "name" : "directConnectNetwork1",
+        "tags" : [ "uplink" ]
+      } ]
+    }, {
+      "endpointId" : "20190904180212801-b2471705-83fb-4898-9fed-bafda109eef9",
+      "endpointName" : "cs-hcx1.corp.local-enterprise",
+      "computeProfileId" : "bfb205cb-5361-47b4-ace5-ee968e889018",
+      "computeProfileName" : "cslab-profile",
+      "locationType" : "hcm",
+      "networks" : [ {
+        "id" : "network-89d85ff5-e912-4e36-92c5-93604f805f32",
+        "name" : "VLAN1050",
+        "tags" : [ "uplink" ]
+      } ]
+    } ],
+    "trafficEnggCfg" : {
+      "isAppPathResiliencyEnabled" : false,
+      "isTcpFlowConditioningEnabled" : false
+    },
+    "state" : "COMMITTED",
+    "lastTaskDetails" : {
+      "interconnectTaskId" : "9b51f8bc-b81d-4a71-91d8-7a8fc23aa245",
+      "type" : "modifyServiceMesh",
+      "status" : "RUNNING"
+    },
+    "status" : {
+      "timestamp" : 1604396023,
+      "services" : [ {
+        "serviceName" : "INTERCONNECT",
+        "status" : "up",
+        "reason" : [ ]
+      }, {
+        "serviceName" : "VMOTION",
+        "status" : "up",
+        "reason" : [ ]
+      }, {
+        "serviceName" : "DISASTER_RECOVERY",
+        "status" : "up",
+        "reason" : [ ]
+      }, {
+        "serviceName" : "BULK_MIGRATION",
+        "status" : "up",
+        "reason" : [ ]
+      }, {
+        "serviceName" : "WANOPT",
+        "status" : "up",
+        "reason" : [ ]
+      }, {
+        "serviceName" : "RAV",
+        "status" : "up",
+        "reason" : [ ]
+      }, {
+        "serviceName" : "NETWORK_EXTENSION",
+        "status" : "up",
+        "reason" : [ ]
+      } ]
+    }
+  } ]
+}}
