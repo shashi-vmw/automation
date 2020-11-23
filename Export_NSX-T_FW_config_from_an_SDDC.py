@@ -40,6 +40,7 @@ sservicesurl = '%s/policy/api/v1/infra/services?page_size=%s&cursor=%s' %(srevpr
 sdfwurl = '%s/policy/api/v1/infra/domains/cgw/communication-maps' %(srevproxyurl)
 ikeprofurl = '%s/policy/api/v1/infra/ipsec-vpn-ike-profiles' %(srevproxyurl)
 tunnelprofurl = '%s/policy/api/v1/infra/ipsec-vpn-tunnel-profiles' %(srevproxyurl)
+bgpneighborurl =  '%s/policy/api/v1/infra/tier-0s/vmc/locale-services/default/bgp/neighbors' %(srevproxyurl)
 l3vpnsessionurl = '%s/policy/api/v1/infra/tier-0s/vmc/locale-services/default/ipsec-vpn-services/default/sessions' %(srevproxyurl)
 
 headers = {'csp-auth-token': token, 'content-type': 'application/json'}
@@ -179,6 +180,18 @@ for tunprofile in tunprofiles:
     if tunprofile["_create_user"]!= "admin" and tunprofile["_create_user"]!="admin;admin" and tunprofile["_create_user"]!="system":
         print(json.dumps(tunprofile,indent=4))
 
+### Get BGP Neighbors for Route Based VPN's  ###
+
+bgpnresponse = requests.get(bgpneighborurl,headers=headers)
+bgn = json.loads(bgpnresponse.text)
+bgpns = bgn["results"]
+
+### Filter out system BGP Neighbors ###
+curCursor = ''
+print("BGP Neighbors:")
+for bgpn in bgpns:
+    if bgpn["_create_user"]!= "admin" and bgpn["_create_user"]!="admin;admin" and bgpn["_create_user"]!="system":
+        print(json.dumps(bgpn,indent=4))
 
 ### Get L3VPN Sessions ###
 
