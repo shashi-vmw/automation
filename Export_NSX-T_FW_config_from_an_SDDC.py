@@ -38,6 +38,9 @@ scgwurl = '%s/policy/api/v1/infra/domains/cgw/gateway-policies/default/rules' %(
 smgwurl = '%s/policy/api/v1/infra/domains/mgw/gateway-policies/default/rules' %(srevproxyurl)
 sservicesurl = '%s/policy/api/v1/infra/services?page_size=%s&cursor=%s' %(srevproxyurl,pageSize,curCursor)
 sdfwurl = '%s/policy/api/v1/infra/domains/cgw/communication-maps' %(srevproxyurl)
+ikeprofurl = '%s/policy/api/v1/infra/ipsec-vpn-ike-profiles' %(srevproxyurl)
+tunnelprofurl = '%s/policy/api/v1/infra/ipsec-vpn-tunnel-profiles' %(srevproxyurl)
+l3vpnsessionurl = '%s/policy/api/v1/infra/tier-0s/vmc/locale-services/default/ipsec-vpn-services/default/sessions' %(srevproxyurl)
 
 headers = {'csp-auth-token': token, 'content-type': 'application/json'}
 
@@ -150,3 +153,42 @@ for cmap in cmaps:
     cmapd = json.loads(cmapDetails.text)
     print(cmapDetails.text)
     
+### Get VPN IKE Profiles ###
+
+ikeprofresponse = requests.get(ikeprofurl,headers=headers)
+ikep = json.loads(ikeprofresponse.text)
+ikeprofiles = ikep["results"]
+
+### Filter out system profiles ###
+curCursor = ''
+print("IKE Profiles")
+for ikeprofile in ikeprofiles:
+    if ikeprofile["_create_user"]!= "admin" and ikeprofile["_create_user"]!="admin;admin" and ikeprofile["_create_user"]!="system":
+        print(json.dumps(ikeprofile,indent=4))
+		
+### Get VPN Tunnel Profiles ###
+
+tunprofresponse = requests.get(tunnelprofurl,headers=headers)
+tunp = json.loads(tunprofresponse.text)
+tunprofiles = tunp["results"]
+
+### Filter out system profiles ###
+curCursor = ''
+print("Tunnel Profiles")
+for tunprofile in tunprofiles:
+    if tunprofile["_create_user"]!= "admin" and tunprofile["_create_user"]!="admin;admin" and tunprofile["_create_user"]!="system":
+        print(json.dumps(tunprofile,indent=4))
+
+
+### Get L3VPN Sessions ###
+
+l3vpnsresponse = requests.get(l3vpnsessionurl,headers=headers)
+l3v = json.loads(l3vpnsresponse.text)
+l3vpns = l3v["results"]
+
+### Filter out system profiles ###
+curCursor = ''
+print("L3VPN Sessions:")
+for l3vpn in l3vpns:
+    if l3vpn["_create_user"]!= "admin" and l3vpn["_create_user"]!="admin;admin" and l3vpn["_create_user"]!="system":
+        print(json.dumps(l3vpn,indent=4))
