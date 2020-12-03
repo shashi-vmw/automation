@@ -1,0 +1,2954 @@
+{"MGWGroups": [
+{
+    "expression": [
+        {
+            "ip_addresses": [
+                "10.0.0.0/8"
+            ],
+            "resource_type": "IPAddressExpression",
+            "id": "e9aeb018-9158-44e6-ad05-cee7af30854f",
+            "path": "/infra/domains/mgw/groups/10Network/ip-address-expressions/e9aeb018-9158-44e6-ad05-cee7af30854f",
+            "relative_path": "e9aeb018-9158-44e6-ad05-cee7af30854f",
+            "parent_path": "/infra/domains/mgw/groups/10Network",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_protection": "NOT_PROTECTED"
+        }
+    ],
+    "extended_expression": [],
+    "reference": false,
+    "resource_type": "Group",
+    "id": "10Network",
+    "display_name": "10Network",
+    "path": "/infra/domains/mgw/groups/10Network",
+    "relative_path": "10Network",
+    "parent_path": "/infra/domains/mgw",
+    "unique_id": "1d085a9b-3c0a-4229-a890-26c028784f41",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "zhangda@vmware.com",
+    "_create_time": 1603174961468,
+    "_last_modified_user": "zhangda@vmware.com",
+    "_last_modified_time": 1603174961470,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 0
+}],
+"CGWGroups": [
+{
+    "expression": [
+        {
+            "ip_addresses": [
+                "10.0.0.0/8"
+            ],
+            "resource_type": "IPAddressExpression",
+            "id": "dbb30d03-f4cb-4853-a62f-0b8061be0056",
+            "path": "/infra/domains/cgw/groups/10Network/ip-address-expressions/dbb30d03-f4cb-4853-a62f-0b8061be0056",
+            "relative_path": "dbb30d03-f4cb-4853-a62f-0b8061be0056",
+            "parent_path": "/infra/domains/cgw/groups/10Network",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_protection": "NOT_PROTECTED"
+        }
+    ],
+    "extended_expression": [],
+    "reference": false,
+    "resource_type": "Group",
+    "id": "10Network",
+    "display_name": "10Network",
+    "path": "/infra/domains/cgw/groups/10Network",
+    "relative_path": "10Network",
+    "parent_path": "/infra/domains/cgw",
+    "unique_id": "ba027bba-86b7-4892-b194-122593e01433",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "zhangda@vmware.com",
+    "_create_time": 1602720837632,
+    "_last_modified_user": "zhangda@vmware.com",
+    "_last_modified_time": 1602720837634,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 0
+},
+{
+    "expression": [
+        {
+            "member_type": "VirtualMachine",
+            "key": "Tag",
+            "operator": "EQUALS",
+            "value": "|aaaaa",
+            "resource_type": "Condition",
+            "id": "33ead824-025d-4185-94e4-cf8dcb5c58c9",
+            "path": "/infra/domains/cgw/groups/Group_1/condition-expressions/33ead824-025d-4185-94e4-cf8dcb5c58c9",
+            "relative_path": "33ead824-025d-4185-94e4-cf8dcb5c58c9",
+            "parent_path": "/infra/domains/cgw/groups/Group_1",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_protection": "NOT_PROTECTED"
+        },
+        {
+            "conjunction_operator": "OR",
+            "resource_type": "ConjunctionOperator",
+            "id": "7d73e912-38df-4a64-aff7-136dd4c16d1a",
+            "path": "/infra/domains/cgw/groups/Group_1/conjunction-expressions/7d73e912-38df-4a64-aff7-136dd4c16d1a",
+            "relative_path": "7d73e912-38df-4a64-aff7-136dd4c16d1a",
+            "parent_path": "/infra/domains/cgw/groups/Group_1",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_protection": "NOT_PROTECTED"
+        },
+        {
+            "member_type": "VirtualMachine",
+            "external_ids": [
+                "50080041-47f3-242b-b6b1-191ee177254e"
+            ],
+            "resource_type": "ExternalIDExpression",
+            "id": "f5b9a562-4dde-4c21-b6cb-02decc3a0ee2",
+            "path": "/infra/domains/cgw/groups/Group_1/external-id-expressions/f5b9a562-4dde-4c21-b6cb-02decc3a0ee2",
+            "relative_path": "f5b9a562-4dde-4c21-b6cb-02decc3a0ee2",
+            "parent_path": "/infra/domains/cgw/groups/Group_1",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_protection": "NOT_PROTECTED"
+        }
+    ],
+    "extended_expression": [],
+    "reference": false,
+    "resource_type": "Group",
+    "id": "Group_1",
+    "display_name": "Group 1",
+    "path": "/infra/domains/cgw/groups/Group_1",
+    "relative_path": "Group_1",
+    "parent_path": "/infra/domains/cgw",
+    "unique_id": "397d2dac-be3b-4ccf-bb75-64a22b02f775",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "nmyohtet@vmware.com",
+    "_create_time": 1602127861284,
+    "_last_modified_user": "nmyohtet@vmware.com",
+    "_last_modified_time": 1602128354199,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 2
+},
+{
+    "expression": [
+        {
+            "ip_addresses": [
+                "121.223.131.189"
+            ],
+            "resource_type": "IPAddressExpression",
+            "id": "1c343c4f-eab8-4de8-b997-74dbf8fd389f",
+            "path": "/infra/domains/cgw/groups/HomePublic/ip-address-expressions/1c343c4f-eab8-4de8-b997-74dbf8fd389f",
+            "relative_path": "1c343c4f-eab8-4de8-b997-74dbf8fd389f",
+            "parent_path": "/infra/domains/cgw/groups/HomePublic",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_protection": "NOT_PROTECTED"
+        }
+    ],
+    "extended_expression": [],
+    "reference": false,
+    "resource_type": "Group",
+    "id": "HomePublic",
+    "display_name": "HomePublic",
+    "path": "/infra/domains/cgw/groups/HomePublic",
+    "relative_path": "HomePublic",
+    "parent_path": "/infra/domains/cgw",
+    "unique_id": "bd30218f-f147-4f60-9dde-b82af9272d2f",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "zhangda@vmware.com",
+    "_create_time": 1603003661776,
+    "_last_modified_user": "zhangda@vmware.com",
+    "_last_modified_time": 1603003661777,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 0
+},
+{
+    "expression": [
+        {
+            "paths": [
+                "/infra/tier-1s/cgw/segments/Net100",
+                "/infra/tier-1s/cgw/segments/SEG-001",
+                "/infra/tier-1s/cgw/segments/SEG-002",
+                "/infra/tier-1s/cgw/segments/SEG-003",
+                "/infra/tier-1s/cgw/segments/SEG-005",
+                "/infra/tier-1s/cgw/segments/SEG-005-FiYIz5_hr"
+            ],
+            "resource_type": "PathExpression",
+            "id": "a90ca1f9-bdd7-4122-8558-55112c62fb0d",
+            "path": "/infra/domains/cgw/groups/Internet_Accessible_VMs/path-expressions/a90ca1f9-bdd7-4122-8558-55112c62fb0d",
+            "relative_path": "a90ca1f9-bdd7-4122-8558-55112c62fb0d",
+            "parent_path": "/infra/domains/cgw/groups/Internet_Accessible_VMs",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_protection": "NOT_PROTECTED"
+        }
+    ],
+    "extended_expression": [],
+    "reference": false,
+    "resource_type": "Group",
+    "id": "Internet_Accessible_VMs",
+    "display_name": "Internet_Accessible_VMs",
+    "path": "/infra/domains/cgw/groups/Internet_Accessible_VMs",
+    "relative_path": "Internet_Accessible_VMs",
+    "parent_path": "/infra/domains/cgw",
+    "unique_id": "8afad319-afcb-44ab-a7be-6d0cf0d527a8",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "nmyohtet@vmware.com",
+    "_create_time": 1603341344899,
+    "_last_modified_user": "nmyohtet@vmware.com",
+    "_last_modified_time": 1604030362010,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 1
+},
+{
+    "expression": [
+        {
+            "member_type": "VirtualMachine",
+            "key": "Name",
+            "operator": "EQUALS",
+            "value": "WIN-001",
+            "resource_type": "Condition",
+            "id": "6b0708dd-951f-4aee-9151-de5658427b40",
+            "path": "/infra/domains/cgw/groups/WIN/condition-expressions/6b0708dd-951f-4aee-9151-de5658427b40",
+            "relative_path": "6b0708dd-951f-4aee-9151-de5658427b40",
+            "parent_path": "/infra/domains/cgw/groups/WIN",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_protection": "NOT_PROTECTED"
+        },
+        {
+            "conjunction_operator": "OR",
+            "resource_type": "ConjunctionOperator",
+            "id": "71eeddc7-690a-489f-9f6e-c061c2287d91",
+            "path": "/infra/domains/cgw/groups/WIN/conjunction-expressions/71eeddc7-690a-489f-9f6e-c061c2287d91",
+            "relative_path": "71eeddc7-690a-489f-9f6e-c061c2287d91",
+            "parent_path": "/infra/domains/cgw/groups/WIN",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_protection": "NOT_PROTECTED"
+        },
+        {
+            "member_type": "VirtualMachine",
+            "key": "Name",
+            "operator": "EQUALS",
+            "value": "WIN-002",
+            "resource_type": "Condition",
+            "id": "0a28ced6-a3e3-481e-a2bb-c10714088cec",
+            "path": "/infra/domains/cgw/groups/WIN/condition-expressions/0a28ced6-a3e3-481e-a2bb-c10714088cec",
+            "relative_path": "0a28ced6-a3e3-481e-a2bb-c10714088cec",
+            "parent_path": "/infra/domains/cgw/groups/WIN",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_protection": "NOT_PROTECTED"
+        },
+        {
+            "conjunction_operator": "OR",
+            "resource_type": "ConjunctionOperator",
+            "id": "74cdfcb0-6d7f-43b0-90cf-bfb4f782f838",
+            "path": "/infra/domains/cgw/groups/WIN/conjunction-expressions/74cdfcb0-6d7f-43b0-90cf-bfb4f782f838",
+            "relative_path": "74cdfcb0-6d7f-43b0-90cf-bfb4f782f838",
+            "parent_path": "/infra/domains/cgw/groups/WIN",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_protection": "NOT_PROTECTED"
+        },
+        {
+            "member_type": "VirtualMachine",
+            "key": "Name",
+            "operator": "EQUALS",
+            "value": "WIN-DC01",
+            "resource_type": "Condition",
+            "id": "56ee7826-ba66-4f7f-8628-eae7af965c10",
+            "path": "/infra/domains/cgw/groups/WIN/condition-expressions/56ee7826-ba66-4f7f-8628-eae7af965c10",
+            "relative_path": "56ee7826-ba66-4f7f-8628-eae7af965c10",
+            "parent_path": "/infra/domains/cgw/groups/WIN",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_protection": "NOT_PROTECTED"
+        },
+        {
+            "conjunction_operator": "OR",
+            "resource_type": "ConjunctionOperator",
+            "id": "508ee1be-3cc4-4327-810e-49f7f75b0df0",
+            "path": "/infra/domains/cgw/groups/WIN/conjunction-expressions/508ee1be-3cc4-4327-810e-49f7f75b0df0",
+            "relative_path": "508ee1be-3cc4-4327-810e-49f7f75b0df0",
+            "parent_path": "/infra/domains/cgw/groups/WIN",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_protection": "NOT_PROTECTED"
+        },
+        {
+            "member_type": "VirtualMachine",
+            "key": "Name",
+            "operator": "EQUALS",
+            "value": "WIN-003",
+            "resource_type": "Condition",
+            "id": "737c69fb-c771-4847-9297-adb84e8f0ce0",
+            "path": "/infra/domains/cgw/groups/WIN/condition-expressions/737c69fb-c771-4847-9297-adb84e8f0ce0",
+            "relative_path": "737c69fb-c771-4847-9297-adb84e8f0ce0",
+            "parent_path": "/infra/domains/cgw/groups/WIN",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_protection": "NOT_PROTECTED"
+        }
+    ],
+    "extended_expression": [],
+    "reference": false,
+    "resource_type": "Group",
+    "id": "WIN",
+    "display_name": "WIN",
+    "path": "/infra/domains/cgw/groups/WIN",
+    "relative_path": "WIN",
+    "parent_path": "/infra/domains/cgw",
+    "unique_id": "e8bbc907-9faf-4c7b-9f6d-9f6a481961ae",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "nmyohtet@vmware.com",
+    "_create_time": 1603360162454,
+    "_last_modified_user": "nmyohtet@vmware.com",
+    "_last_modified_time": 1605008740733,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 4
+},
+{
+    "expression": [
+        {
+            "member_type": "VirtualMachine",
+            "key": "Name",
+            "operator": "EQUALS",
+            "value": "WIN-001",
+            "resource_type": "Condition",
+            "id": "30267590-cc15-4558-b1c8-55efb38a70ac",
+            "path": "/infra/domains/cgw/groups/WIN-001/condition-expressions/30267590-cc15-4558-b1c8-55efb38a70ac",
+            "relative_path": "30267590-cc15-4558-b1c8-55efb38a70ac",
+            "parent_path": "/infra/domains/cgw/groups/WIN-001",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_protection": "NOT_PROTECTED"
+        }
+    ],
+    "extended_expression": [],
+    "reference": false,
+    "resource_type": "Group",
+    "id": "WIN-001",
+    "display_name": "WIN-001",
+    "path": "/infra/domains/cgw/groups/WIN-001",
+    "relative_path": "WIN-001",
+    "parent_path": "/infra/domains/cgw",
+    "unique_id": "40631176-31d7-4845-9374-c1c125635bee",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "nmyohtet@vmware.com",
+    "_create_time": 1605689827674,
+    "_last_modified_user": "nmyohtet@vmware.com",
+    "_last_modified_time": 1605689827676,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 0
+},
+{
+    "expression": [
+        {
+            "member_type": "VirtualMachine",
+            "key": "Name",
+            "operator": "EQUALS",
+            "value": "WIN-002",
+            "resource_type": "Condition",
+            "id": "94963c05-d1ab-4bb0-8870-197aaa54514f",
+            "path": "/infra/domains/cgw/groups/WIN-APP-DB/condition-expressions/94963c05-d1ab-4bb0-8870-197aaa54514f",
+            "relative_path": "94963c05-d1ab-4bb0-8870-197aaa54514f",
+            "parent_path": "/infra/domains/cgw/groups/WIN-APP-DB",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_protection": "NOT_PROTECTED"
+        },
+        {
+            "conjunction_operator": "OR",
+            "resource_type": "ConjunctionOperator",
+            "id": "1356ae2e-0b52-4079-896e-1e465624f404",
+            "path": "/infra/domains/cgw/groups/WIN-APP-DB/conjunction-expressions/1356ae2e-0b52-4079-896e-1e465624f404",
+            "relative_path": "1356ae2e-0b52-4079-896e-1e465624f404",
+            "parent_path": "/infra/domains/cgw/groups/WIN-APP-DB",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_protection": "NOT_PROTECTED"
+        },
+        {
+            "member_type": "VirtualMachine",
+            "key": "Name",
+            "operator": "EQUALS",
+            "value": "WIN-003",
+            "resource_type": "Condition",
+            "id": "ed1dc5e4-bb46-4816-b83c-7f6924539519",
+            "path": "/infra/domains/cgw/groups/WIN-APP-DB/condition-expressions/ed1dc5e4-bb46-4816-b83c-7f6924539519",
+            "relative_path": "ed1dc5e4-bb46-4816-b83c-7f6924539519",
+            "parent_path": "/infra/domains/cgw/groups/WIN-APP-DB",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_protection": "NOT_PROTECTED"
+        }
+    ],
+    "extended_expression": [],
+    "reference": false,
+    "resource_type": "Group",
+    "id": "WIN-APP-DB",
+    "display_name": "WIN-APP-DB",
+    "path": "/infra/domains/cgw/groups/WIN-APP-DB",
+    "relative_path": "WIN-APP-DB",
+    "parent_path": "/infra/domains/cgw",
+    "unique_id": "de4a210f-a238-4cbc-8a67-1c75ebeb379c",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "nmyohtet@vmware.com",
+    "_create_time": 1606053449367,
+    "_last_modified_user": "nmyohtet@vmware.com",
+    "_last_modified_time": 1606053449370,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 0
+},
+{
+    "expression": [
+        {
+            "member_type": "VirtualMachine",
+            "key": "Name",
+            "operator": "EQUALS",
+            "value": "WIN-DC01",
+            "resource_type": "Condition",
+            "id": "969c27dd-829f-4b1c-bc0c-35b07bc91380",
+            "path": "/infra/domains/cgw/groups/WIN-DC01/condition-expressions/969c27dd-829f-4b1c-bc0c-35b07bc91380",
+            "relative_path": "969c27dd-829f-4b1c-bc0c-35b07bc91380",
+            "parent_path": "/infra/domains/cgw/groups/WIN-DC01",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_protection": "NOT_PROTECTED"
+        }
+    ],
+    "extended_expression": [],
+    "reference": false,
+    "resource_type": "Group",
+    "id": "WIN-DC01",
+    "display_name": "WIN-DC01",
+    "path": "/infra/domains/cgw/groups/WIN-DC01",
+    "relative_path": "WIN-DC01",
+    "parent_path": "/infra/domains/cgw",
+    "unique_id": "2a9a2b37-a71c-416f-b57e-2e8c720a5d4e",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "nmyohtet@vmware.com",
+    "_create_time": 1605689790629,
+    "_last_modified_user": "nmyohtet@vmware.com",
+    "_last_modified_time": 1605689790631,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 0
+},
+{
+    "expression": [
+        {
+            "member_type": "VirtualMachine",
+            "key": "Name",
+            "operator": "EQUALS",
+            "value": "WIN-001",
+            "resource_type": "Condition",
+            "id": "e330af0d-62fe-4a25-9da8-80c031d6633f",
+            "path": "/infra/domains/cgw/groups/WIN-WEB/condition-expressions/e330af0d-62fe-4a25-9da8-80c031d6633f",
+            "relative_path": "e330af0d-62fe-4a25-9da8-80c031d6633f",
+            "parent_path": "/infra/domains/cgw/groups/WIN-WEB",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_protection": "NOT_PROTECTED"
+        },
+        {
+            "conjunction_operator": "OR",
+            "resource_type": "ConjunctionOperator",
+            "id": "d0b388d5-fc99-4d80-b5f9-8ffe2ae28090",
+            "path": "/infra/domains/cgw/groups/WIN-WEB/conjunction-expressions/d0b388d5-fc99-4d80-b5f9-8ffe2ae28090",
+            "relative_path": "d0b388d5-fc99-4d80-b5f9-8ffe2ae28090",
+            "parent_path": "/infra/domains/cgw/groups/WIN-WEB",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_protection": "NOT_PROTECTED"
+        },
+        {
+            "member_type": "VirtualMachine",
+            "key": "Name",
+            "operator": "EQUALS",
+            "value": "WIN-002",
+            "resource_type": "Condition",
+            "id": "f9404d1e-8950-4424-bee7-833d6464eff4",
+            "path": "/infra/domains/cgw/groups/WIN-WEB/condition-expressions/f9404d1e-8950-4424-bee7-833d6464eff4",
+            "relative_path": "f9404d1e-8950-4424-bee7-833d6464eff4",
+            "parent_path": "/infra/domains/cgw/groups/WIN-WEB",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_protection": "NOT_PROTECTED"
+        }
+    ],
+    "extended_expression": [],
+    "reference": false,
+    "resource_type": "Group",
+    "id": "WIN-WEB",
+    "display_name": "WIN-WEB-APP",
+    "path": "/infra/domains/cgw/groups/WIN-WEB",
+    "relative_path": "WIN-WEB",
+    "parent_path": "/infra/domains/cgw",
+    "unique_id": "544e8512-6fd0-49d7-b6ac-c2c9ac6d0803",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "nmyohtet@vmware.com",
+    "_create_time": 1605054955203,
+    "_last_modified_user": "nmyohtet@vmware.com",
+    "_last_modified_time": 1606053384731,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 1
+},
+{
+    "expression": [
+        {
+            "member_type": "VirtualMachine",
+            "key": "Name",
+            "operator": "EQUALS",
+            "value": "WIN-001",
+            "resource_type": "Condition",
+            "id": "d460486e-fedf-4474-83e5-db738156d380",
+            "path": "/infra/domains/cgw/groups/WIN-WEB-DB/condition-expressions/d460486e-fedf-4474-83e5-db738156d380",
+            "relative_path": "d460486e-fedf-4474-83e5-db738156d380",
+            "parent_path": "/infra/domains/cgw/groups/WIN-WEB-DB",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_protection": "NOT_PROTECTED"
+        },
+        {
+            "conjunction_operator": "OR",
+            "resource_type": "ConjunctionOperator",
+            "id": "19caad9d-2dbe-4c5d-88e1-fbc5e0f39c08",
+            "path": "/infra/domains/cgw/groups/WIN-WEB-DB/conjunction-expressions/19caad9d-2dbe-4c5d-88e1-fbc5e0f39c08",
+            "relative_path": "19caad9d-2dbe-4c5d-88e1-fbc5e0f39c08",
+            "parent_path": "/infra/domains/cgw/groups/WIN-WEB-DB",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_protection": "NOT_PROTECTED"
+        },
+        {
+            "member_type": "VirtualMachine",
+            "key": "Name",
+            "operator": "EQUALS",
+            "value": "WIN-003",
+            "resource_type": "Condition",
+            "id": "fcd6f817-7c21-4e62-9b99-8dd797239ddb",
+            "path": "/infra/domains/cgw/groups/WIN-WEB-DB/condition-expressions/fcd6f817-7c21-4e62-9b99-8dd797239ddb",
+            "relative_path": "fcd6f817-7c21-4e62-9b99-8dd797239ddb",
+            "parent_path": "/infra/domains/cgw/groups/WIN-WEB-DB",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_protection": "NOT_PROTECTED"
+        }
+    ],
+    "extended_expression": [],
+    "reference": false,
+    "resource_type": "Group",
+    "id": "WIN-WEB-DB",
+    "display_name": "WIN-WEB-DB",
+    "path": "/infra/domains/cgw/groups/WIN-WEB-DB",
+    "relative_path": "WIN-WEB-DB",
+    "parent_path": "/infra/domains/cgw",
+    "unique_id": "80af329c-0402-4f46-a741-da14c430a1ae",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "nmyohtet@vmware.com",
+    "_create_time": 1606053503857,
+    "_last_modified_user": "nmyohtet@vmware.com",
+    "_last_modified_time": 1606053503859,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 0
+},
+{
+    "expression": [
+        {
+            "ip_addresses": [
+                "192.168.100.8"
+            ],
+            "resource_type": "IPAddressExpression",
+            "id": "85f04b38-291f-4431-9b4f-eed2b7088d76",
+            "path": "/infra/domains/cgw/groups/WinDC01/ip-address-expressions/85f04b38-291f-4431-9b4f-eed2b7088d76",
+            "relative_path": "85f04b38-291f-4431-9b4f-eed2b7088d76",
+            "parent_path": "/infra/domains/cgw/groups/WinDC01",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_protection": "NOT_PROTECTED"
+        }
+    ],
+    "extended_expression": [],
+    "reference": false,
+    "resource_type": "Group",
+    "id": "WinDC01",
+    "display_name": "WinDC01",
+    "path": "/infra/domains/cgw/groups/WinDC01",
+    "relative_path": "WinDC01",
+    "parent_path": "/infra/domains/cgw",
+    "unique_id": "ef5ac93e-d79f-46f1-92f5-fb432edff4fd",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "zhangda@vmware.com",
+    "_create_time": 1603003594218,
+    "_last_modified_user": "zhangda@vmware.com",
+    "_last_modified_time": 1603003594220,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 0
+},
+{
+    "expression": [
+        {
+            "ip_addresses": [
+                "10.1.1.0/24",
+                "10.1.2.0/24"
+            ],
+            "resource_type": "IPAddressExpression",
+            "id": "11e52f7f-e727-4d00-9fb6-a1bae4b31dd2",
+            "path": "/infra/domains/cgw/groups/dfw-destinations/ip-address-expressions/11e52f7f-e727-4d00-9fb6-a1bae4b31dd2",
+            "relative_path": "11e52f7f-e727-4d00-9fb6-a1bae4b31dd2",
+            "parent_path": "/infra/domains/cgw/groups/dfw-destinations",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_protection": "NOT_PROTECTED"
+        }
+    ],
+    "extended_expression": [],
+    "reference": false,
+    "resource_type": "Group",
+    "id": "dfw-destinations",
+    "display_name": "dfw_test1000_destinationnetworks",
+    "path": "/infra/domains/cgw/groups/dfw-destinations",
+    "relative_path": "dfw-destinations",
+    "parent_path": "/infra/domains/cgw",
+    "unique_id": "b8acb63f-fdef-44c6-b619-33d7a027b305",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "zhangda@vmware.com",
+    "_create_time": 1603491648690,
+    "_last_modified_user": "zhangda@vmware.com",
+    "_last_modified_time": 1603685518653,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 1
+},
+{
+    "expression": [
+        {
+            "ip_addresses": [
+                "192.168.101.0/24",
+                "192.168.104.0/24",
+                "192.168.111.0/28",
+                "192.168.108.0/25",
+                "192.168.102.0/24",
+                "192.168.105.0/24",
+                "192.168.107.0/24",
+                "192.168.106.0/24",
+                "192.168.110.0/27",
+                "192.168.103.0/24",
+                "192.168.109.0/26",
+                "192.168.100.0/24"
+            ],
+            "resource_type": "IPAddressExpression",
+            "id": "699dc46f-43cb-4ff8-9354-0c04e0b5167f",
+            "path": "/infra/domains/cgw/groups/SourceNetworks/ip-address-expressions/699dc46f-43cb-4ff8-9354-0c04e0b5167f",
+            "relative_path": "699dc46f-43cb-4ff8-9354-0c04e0b5167f",
+            "parent_path": "/infra/domains/cgw/groups/SourceNetworks",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_protection": "NOT_PROTECTED"
+        }
+    ],
+    "extended_expression": [],
+    "reference": false,
+    "resource_type": "Group",
+    "id": "SourceNetworks",
+    "display_name": "dfw_test1000_sourcenetworks",
+    "path": "/infra/domains/cgw/groups/SourceNetworks",
+    "relative_path": "SourceNetworks",
+    "parent_path": "/infra/domains/cgw",
+    "unique_id": "2a9eca6f-095c-4e0c-956e-88dc658d3e84",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "zhangda@vmware.com",
+    "_create_time": 1603491598100,
+    "_last_modified_user": "zhangda@vmware.com",
+    "_last_modified_time": 1603685497251,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 1
+},
+{
+    "expression": [
+        {
+            "member_type": "VirtualNetworkInterface",
+            "external_ids": [
+                "50081402-dbe3-c7c0-d9b1-5cec10d28d3d-4000",
+                "50084a6d-7727-35d3-cfc5-06f0de2d6001-4000"
+            ],
+            "resource_type": "ExternalIDExpression",
+            "id": "2e390e1e-2471-47a3-88f6-49d3e21bb9e5",
+            "path": "/infra/domains/cgw/groups/dfw-vms/external-id-expressions/2e390e1e-2471-47a3-88f6-49d3e21bb9e5",
+            "relative_path": "2e390e1e-2471-47a3-88f6-49d3e21bb9e5",
+            "parent_path": "/infra/domains/cgw/groups/dfw-vms",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_protection": "NOT_PROTECTED"
+        }
+    ],
+    "extended_expression": [],
+    "reference": false,
+    "resource_type": "Group",
+    "id": "dfw-vms",
+    "display_name": "dfw_test1000_vms",
+    "path": "/infra/domains/cgw/groups/dfw-vms",
+    "relative_path": "dfw-vms",
+    "parent_path": "/infra/domains/cgw",
+    "unique_id": "65c8b51c-3dfa-4d5c-ac6b-1f2b709a2072",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "zhangda@vmware.com",
+    "_create_time": 1603491734170,
+    "_last_modified_user": "zhangda@vmware.com",
+    "_last_modified_time": 1603685537438,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 1
+},
+{
+    "expression": [
+        {
+            "ip_addresses": [
+                "10.138.0.0/20"
+            ],
+            "resource_type": "IPAddressExpression",
+            "id": "22e6cab9-10ec-4d6b-a126-600e224f54c7",
+            "path": "/infra/domains/cgw/groups/gcp-vpc/ip-address-expressions/22e6cab9-10ec-4d6b-a126-600e224f54c7",
+            "relative_path": "22e6cab9-10ec-4d6b-a126-600e224f54c7",
+            "parent_path": "/infra/domains/cgw/groups/gcp-vpc",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_protection": "NOT_PROTECTED"
+        }
+    ],
+    "extended_expression": [],
+    "reference": false,
+    "resource_type": "Group",
+    "id": "gcp-vpc",
+    "display_name": "gcp-vpc",
+    "path": "/infra/domains/cgw/groups/gcp-vpc",
+    "relative_path": "gcp-vpc",
+    "parent_path": "/infra/domains/cgw",
+    "unique_id": "cd6cda3f-a259-4027-8446-7702604cb5b2",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "nmyohtet@vmware.com",
+    "_create_time": 1606282735198,
+    "_last_modified_user": "nmyohtet@vmware.com",
+    "_last_modified_time": 1606282735200,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 0
+},
+{
+    "expression": [
+        {
+            "ip_addresses": [
+                "118.200.53.10"
+            ],
+            "resource_type": "IPAddressExpression",
+            "id": "e20c13e2-115c-401c-9d9b-c8ffb9110bcd",
+            "path": "/infra/domains/cgw/groups/nay_home/ip-address-expressions/e20c13e2-115c-401c-9d9b-c8ffb9110bcd",
+            "relative_path": "e20c13e2-115c-401c-9d9b-c8ffb9110bcd",
+            "parent_path": "/infra/domains/cgw/groups/nay_home",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_protection": "NOT_PROTECTED"
+        }
+    ],
+    "extended_expression": [],
+    "reference": false,
+    "resource_type": "Group",
+    "id": "nay_home",
+    "display_name": "nay_home",
+    "path": "/infra/domains/cgw/groups/nay_home",
+    "relative_path": "nay_home",
+    "parent_path": "/infra/domains/cgw",
+    "unique_id": "05b06239-280f-4f79-bfac-9d75e01b21b9",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "nmyohtet@vmware.com",
+    "_create_time": 1605690241238,
+    "_last_modified_user": "nmyohtet@vmware.com",
+    "_last_modified_time": 1605690241240,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 0
+},
+{
+    "expression": [
+        {
+            "ip_addresses": [
+                "192.168.100.0/24"
+            ],
+            "resource_type": "IPAddressExpression",
+            "id": "29cfe8f0-2850-47e7-adb3-06e0c785c5c2",
+            "path": "/infra/domains/cgw/groups/net100/ip-address-expressions/29cfe8f0-2850-47e7-adb3-06e0c785c5c2",
+            "relative_path": "29cfe8f0-2850-47e7-adb3-06e0c785c5c2",
+            "parent_path": "/infra/domains/cgw/groups/net100",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_protection": "NOT_PROTECTED"
+        }
+    ],
+    "extended_expression": [],
+    "reference": false,
+    "resource_type": "Group",
+    "id": "net100",
+    "display_name": "net100",
+    "path": "/infra/domains/cgw/groups/net100",
+    "relative_path": "net100",
+    "parent_path": "/infra/domains/cgw",
+    "unique_id": "a6a2905f-e90e-4c52-9c59-7a5c76ef1e84",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "zhangda@vmware.com",
+    "_create_time": 1602197557903,
+    "_last_modified_user": "zhangda@vmware.com",
+    "_last_modified_time": 1602197557905,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 0
+}],
+"Services": [
+{
+    "is_default": false,
+    "service_entries": [
+        {
+            "l4_protocol": "UDP",
+            "source_ports": [],
+            "destination_ports": [
+                "4500"
+            ],
+            "resource_type": "L4PortSetServiceEntry",
+            "id": "UDP4500",
+            "display_name": "UDP4500",
+            "path": "/infra/services/TGP_UDP_ICMP_4500/service-entries/UDP4500",
+            "relative_path": "UDP4500",
+            "parent_path": "/infra/services/TGP_UDP_ICMP_4500",
+            "unique_id": "01c788c6-d65b-4435-85d3-ac5bd60e440c",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_system_owned": false,
+            "_create_user": "zhangda@vmware.com",
+            "_create_time": 1603683471598,
+            "_last_modified_user": "zhangda@vmware.com",
+            "_last_modified_time": 1603683471600,
+            "_protection": "NOT_PROTECTED",
+            "_revision": 0
+        },
+        {
+            "resource_type": "IGMPTypeServiceEntry",
+            "id": "ICMP4500",
+            "display_name": "ICMP4500",
+            "path": "/infra/services/TGP_UDP_ICMP_4500/service-entries/ICMP4500",
+            "relative_path": "ICMP4500",
+            "parent_path": "/infra/services/TGP_UDP_ICMP_4500",
+            "unique_id": "c618f183-bc57-4463-b418-034ea1cf0837",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_system_owned": false,
+            "_create_user": "zhangda@vmware.com",
+            "_create_time": 1603683471584,
+            "_last_modified_user": "zhangda@vmware.com",
+            "_last_modified_time": 1603683471588,
+            "_protection": "NOT_PROTECTED",
+            "_revision": 0
+        },
+        {
+            "l4_protocol": "TCP",
+            "source_ports": [],
+            "destination_ports": [
+                "4500"
+            ],
+            "resource_type": "L4PortSetServiceEntry",
+            "id": "TCP4500",
+            "display_name": "TCP4500",
+            "path": "/infra/services/TGP_UDP_ICMP_4500/service-entries/TCP4500",
+            "relative_path": "TCP4500",
+            "parent_path": "/infra/services/TGP_UDP_ICMP_4500",
+            "unique_id": "8588995c-45aa-431f-b26e-c0418b5137f6",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_system_owned": false,
+            "_create_user": "zhangda@vmware.com",
+            "_create_time": 1603683471594,
+            "_last_modified_user": "zhangda@vmware.com",
+            "_last_modified_time": 1603683471595,
+            "_protection": "NOT_PROTECTED",
+            "_revision": 0
+        }
+    ],
+    "service_type": "NON_ETHER",
+    "resource_type": "Service",
+    "id": "TGP_UDP_ICMP_4500",
+    "display_name": "dfw_test1000_TGP_UDP_ICMP_4500",
+    "path": "/infra/services/TGP_UDP_ICMP_4500",
+    "relative_path": "TGP_UDP_ICMP_4500",
+    "parent_path": "/infra",
+    "unique_id": "cb4aa319-5b1f-453d-901b-7c38a0fe912e",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "zhangda@vmware.com",
+    "_create_time": 1603683471573,
+    "_last_modified_user": "zhangda@vmware.com",
+    "_last_modified_time": 1603684186926,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 1
+}
+,
+{
+    "is_default": false,
+    "service_entries": [
+        {
+            "nested_service_path": "/infra/services/odd_tcp_ports",
+            "resource_type": "NestedServiceServiceEntry",
+            "id": "odd_tcp_ports",
+            "display_name": "dfw_test1000_odd_tcp_ports",
+            "path": "/infra/services/dfw_test1000_nested/service-entries/odd_tcp_ports",
+            "relative_path": "odd_tcp_ports",
+            "parent_path": "/infra/services/dfw_test1000_nested",
+            "unique_id": "d298dc76-70df-4047-8587-709effd0a11f",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_system_owned": false,
+            "_create_user": "zhangda@vmware.com",
+            "_create_time": 1603685082505,
+            "_last_modified_user": "zhangda@vmware.com",
+            "_last_modified_time": 1603685196348,
+            "_protection": "NOT_PROTECTED",
+            "_revision": 1
+        },
+        {
+            "nested_service_path": "/infra/services/dfw_test1000_odd_tcp_ports_4k",
+            "resource_type": "NestedServiceServiceEntry",
+            "id": "dfw_test1000_odd_tcp_ports_4k",
+            "display_name": "dfw_test1000_odd_tcp_ports_4k",
+            "path": "/infra/services/dfw_test1000_nested/service-entries/dfw_test1000_odd_tcp_ports_4k",
+            "relative_path": "dfw_test1000_odd_tcp_ports_4k",
+            "parent_path": "/infra/services/dfw_test1000_nested",
+            "unique_id": "e4e8c78a-06b2-4ee1-b17a-4b6adc44d837",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_system_owned": false,
+            "_create_user": "zhangda@vmware.com",
+            "_create_time": 1603685196412,
+            "_last_modified_user": "zhangda@vmware.com",
+            "_last_modified_time": 1603685196446,
+            "_protection": "NOT_PROTECTED",
+            "_revision": 0
+        }
+    ],
+    "service_type": "NON_ETHER",
+    "resource_type": "Service",
+    "id": "dfw_test1000_nested",
+    "display_name": "dfw_test1000_nested",
+    "path": "/infra/services/dfw_test1000_nested",
+    "relative_path": "dfw_test1000_nested",
+    "parent_path": "/infra",
+    "unique_id": "9cc0df15-b634-4a91-bb3f-77091c8eda57",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "zhangda@vmware.com",
+    "_create_time": 1603685082493,
+    "_last_modified_user": "zhangda@vmware.com",
+    "_last_modified_time": 1603685082495,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 0
+}
+,
+{
+    "is_default": false,
+    "service_entries": [
+        {
+            "l4_protocol": "TCP",
+            "source_ports": [],
+            "destination_ports": [
+                "5101",
+                "5103",
+                "5105",
+                "5107",
+                "5109",
+                "5111",
+                "5113"
+            ],
+            "resource_type": "L4PortSetServiceEntry",
+            "id": "service51xx",
+            "display_name": "service51xx",
+            "path": "/infra/services/dfw_test1000_nestedservice/service-entries/service51xx",
+            "relative_path": "service51xx",
+            "parent_path": "/infra/services/dfw_test1000_nestedservice",
+            "unique_id": "faee50b9-73a5-4fbd-b0bc-45e066c88521",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_system_owned": false,
+            "_create_user": "zhangda@vmware.com",
+            "_create_time": 1603691320961,
+            "_last_modified_user": "zhangda@vmware.com",
+            "_last_modified_time": 1603691320962,
+            "_protection": "NOT_PROTECTED",
+            "_revision": 0
+        },
+        {
+            "l4_protocol": "TCP",
+            "source_ports": [],
+            "destination_ports": [
+                "5001",
+                "50011",
+                "5003",
+                "5005",
+                "5007",
+                "5009",
+                "5013",
+                "5015",
+                "5017",
+                "5019",
+                "5021",
+                "5023",
+                "5025",
+                "5027"
+            ],
+            "resource_type": "L4PortSetServiceEntry",
+            "id": "service50xx",
+            "display_name": "service50xx",
+            "path": "/infra/services/dfw_test1000_nestedservice/service-entries/service50xx",
+            "relative_path": "service50xx",
+            "parent_path": "/infra/services/dfw_test1000_nestedservice",
+            "unique_id": "42b4d6ed-5f6c-4f1e-b0aa-80213a77e166",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_system_owned": false,
+            "_create_user": "zhangda@vmware.com",
+            "_create_time": 1603691320953,
+            "_last_modified_user": "zhangda@vmware.com",
+            "_last_modified_time": 1603691320954,
+            "_protection": "NOT_PROTECTED",
+            "_revision": 0
+        },
+        {
+            "l4_protocol": "TCP",
+            "source_ports": [],
+            "destination_ports": [
+                "5201",
+                "5203",
+                "5205",
+                "5207",
+                "5209",
+                "5211",
+                "5213",
+                "5215",
+                "5217"
+            ],
+            "resource_type": "L4PortSetServiceEntry",
+            "id": "service52xx",
+            "display_name": "service52xx",
+            "path": "/infra/services/dfw_test1000_nestedservice/service-entries/service52xx",
+            "relative_path": "service52xx",
+            "parent_path": "/infra/services/dfw_test1000_nestedservice",
+            "unique_id": "09d49532-9be4-485f-94cc-a77081aee538",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_system_owned": false,
+            "_create_user": "zhangda@vmware.com",
+            "_create_time": 1603691320957,
+            "_last_modified_user": "zhangda@vmware.com",
+            "_last_modified_time": 1603691320958,
+            "_protection": "NOT_PROTECTED",
+            "_revision": 0
+        }
+    ],
+    "service_type": "NON_ETHER",
+    "resource_type": "Service",
+    "id": "dfw_test1000_nestedservice",
+    "display_name": "dfw_test1000_nestedservice",
+    "path": "/infra/services/dfw_test1000_nestedservice",
+    "relative_path": "dfw_test1000_nestedservice",
+    "parent_path": "/infra",
+    "unique_id": "a117b438-410a-4503-a60a-d1b5a44fdf8d",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "zhangda@vmware.com",
+    "_create_time": 1603691320948,
+    "_last_modified_user": "zhangda@vmware.com",
+    "_last_modified_time": 1603691320949,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 0
+}
+,
+{
+    "is_default": false,
+    "service_entries": [
+        {
+            "l4_protocol": "TCP",
+            "source_ports": [],
+            "destination_ports": [
+                "3009"
+            ],
+            "resource_type": "L4PortSetServiceEntry",
+            "id": "tcp_3009",
+            "display_name": "tcp_3009",
+            "path": "/infra/services/odd_tcp_ports/service-entries/tcp_3009",
+            "relative_path": "tcp_3009",
+            "parent_path": "/infra/services/odd_tcp_ports",
+            "unique_id": "e927abbe-7fec-4d58-952f-25414c028426",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_system_owned": false,
+            "_create_user": "zhangda@vmware.com",
+            "_create_time": 1603683759535,
+            "_last_modified_user": "zhangda@vmware.com",
+            "_last_modified_time": 1603683759536,
+            "_protection": "NOT_PROTECTED",
+            "_revision": 0
+        },
+        {
+            "l4_protocol": "TCP",
+            "source_ports": [],
+            "destination_ports": [
+                "3007"
+            ],
+            "resource_type": "L4PortSetServiceEntry",
+            "id": "tcp_3007",
+            "display_name": "tcp_3007",
+            "path": "/infra/services/odd_tcp_ports/service-entries/tcp_3007",
+            "relative_path": "tcp_3007",
+            "parent_path": "/infra/services/odd_tcp_ports",
+            "unique_id": "afdbeb5a-39b8-46dd-a609-4f5c80d08ac5",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_system_owned": false,
+            "_create_user": "zhangda@vmware.com",
+            "_create_time": 1603683759587,
+            "_last_modified_user": "zhangda@vmware.com",
+            "_last_modified_time": 1603683759588,
+            "_protection": "NOT_PROTECTED",
+            "_revision": 0
+        },
+        {
+            "l4_protocol": "TCP",
+            "source_ports": [],
+            "destination_ports": [
+                "3029"
+            ],
+            "resource_type": "L4PortSetServiceEntry",
+            "id": "tcp_3029",
+            "display_name": "tcp_3029",
+            "path": "/infra/services/odd_tcp_ports/service-entries/tcp_3029",
+            "relative_path": "tcp_3029",
+            "parent_path": "/infra/services/odd_tcp_ports",
+            "unique_id": "12c5e264-cf36-47ff-af9a-8f5f1b539b73",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_system_owned": false,
+            "_create_user": "zhangda@vmware.com",
+            "_create_time": 1603684755999,
+            "_last_modified_user": "zhangda@vmware.com",
+            "_last_modified_time": 1603684756001,
+            "_protection": "NOT_PROTECTED",
+            "_revision": 0
+        },
+        {
+            "l4_protocol": "TCP",
+            "source_ports": [],
+            "destination_ports": [
+                "3019"
+            ],
+            "resource_type": "L4PortSetServiceEntry",
+            "id": "tcp_3019",
+            "display_name": "tcp_3019",
+            "path": "/infra/services/odd_tcp_ports/service-entries/tcp_3019",
+            "relative_path": "tcp_3019",
+            "parent_path": "/infra/services/odd_tcp_ports",
+            "unique_id": "920914a5-4848-4ea5-ba38-343f6ee0c1c8",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_system_owned": false,
+            "_create_user": "zhangda@vmware.com",
+            "_create_time": 1603683759555,
+            "_last_modified_user": "zhangda@vmware.com",
+            "_last_modified_time": 1603683759555,
+            "_protection": "NOT_PROTECTED",
+            "_revision": 0
+        },
+        {
+            "l4_protocol": "TCP",
+            "source_ports": [],
+            "destination_ports": [
+                "3027"
+            ],
+            "resource_type": "L4PortSetServiceEntry",
+            "id": "tcp_3027",
+            "display_name": "tcp_3027",
+            "path": "/infra/services/odd_tcp_ports/service-entries/tcp_3027",
+            "relative_path": "tcp_3027",
+            "parent_path": "/infra/services/odd_tcp_ports",
+            "unique_id": "c66cdd65-2ebc-4a03-ab50-b85544cc05bc",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_system_owned": false,
+            "_create_user": "zhangda@vmware.com",
+            "_create_time": 1603683793758,
+            "_last_modified_user": "zhangda@vmware.com",
+            "_last_modified_time": 1603683793759,
+            "_protection": "NOT_PROTECTED",
+            "_revision": 0
+        },
+        {
+            "l4_protocol": "TCP",
+            "source_ports": [],
+            "destination_ports": [
+                "3005"
+            ],
+            "resource_type": "L4PortSetServiceEntry",
+            "id": "tcp_3005",
+            "display_name": "tcp_3005",
+            "path": "/infra/services/odd_tcp_ports/service-entries/tcp_3005",
+            "relative_path": "tcp_3005",
+            "parent_path": "/infra/services/odd_tcp_ports",
+            "unique_id": "8aba9dba-3b9b-4bc8-b31a-a4b71f8f691a",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_system_owned": false,
+            "_create_user": "zhangda@vmware.com",
+            "_create_time": 1603683759545,
+            "_last_modified_user": "zhangda@vmware.com",
+            "_last_modified_time": 1603683759546,
+            "_protection": "NOT_PROTECTED",
+            "_revision": 0
+        },
+        {
+            "l4_protocol": "TCP",
+            "source_ports": [],
+            "destination_ports": [
+                "3017"
+            ],
+            "resource_type": "L4PortSetServiceEntry",
+            "id": "tcp_3017",
+            "display_name": "tcp_3017",
+            "path": "/infra/services/odd_tcp_ports/service-entries/tcp_3017",
+            "relative_path": "tcp_3017",
+            "parent_path": "/infra/services/odd_tcp_ports",
+            "unique_id": "9fc4bb3a-860a-4b3e-ad4c-2dc3755ad130",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_system_owned": false,
+            "_create_user": "zhangda@vmware.com",
+            "_create_time": 1603683759580,
+            "_last_modified_user": "zhangda@vmware.com",
+            "_last_modified_time": 1603683759581,
+            "_protection": "NOT_PROTECTED",
+            "_revision": 0
+        },
+        {
+            "l4_protocol": "TCP",
+            "source_ports": [],
+            "destination_ports": [
+                "3003"
+            ],
+            "resource_type": "L4PortSetServiceEntry",
+            "id": "tcp_3003",
+            "display_name": "tcp_3003",
+            "path": "/infra/services/odd_tcp_ports/service-entries/tcp_3003",
+            "relative_path": "tcp_3003",
+            "parent_path": "/infra/services/odd_tcp_ports",
+            "unique_id": "06c0cb0e-fd88-4c43-8332-0a89ee2b8d47",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_system_owned": false,
+            "_create_user": "zhangda@vmware.com",
+            "_create_time": 1603683759524,
+            "_last_modified_user": "zhangda@vmware.com",
+            "_last_modified_time": 1603683759526,
+            "_protection": "NOT_PROTECTED",
+            "_revision": 0
+        },
+        {
+            "l4_protocol": "TCP",
+            "source_ports": [],
+            "destination_ports": [
+                "3025"
+            ],
+            "resource_type": "L4PortSetServiceEntry",
+            "id": "tcp_3025",
+            "display_name": "tcp_3025",
+            "path": "/infra/services/odd_tcp_ports/service-entries/tcp_3025",
+            "relative_path": "tcp_3025",
+            "parent_path": "/infra/services/odd_tcp_ports",
+            "unique_id": "66196063-4f93-4090-837d-59c361a23247",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_system_owned": false,
+            "_create_user": "zhangda@vmware.com",
+            "_create_time": 1603683759574,
+            "_last_modified_user": "zhangda@vmware.com",
+            "_last_modified_time": 1603683759575,
+            "_protection": "NOT_PROTECTED",
+            "_revision": 0
+        },
+        {
+            "l4_protocol": "TCP",
+            "source_ports": [],
+            "destination_ports": [
+                "3015"
+            ],
+            "resource_type": "L4PortSetServiceEntry",
+            "id": "tcp_3015",
+            "display_name": "tcp_3015",
+            "path": "/infra/services/odd_tcp_ports/service-entries/tcp_3015",
+            "relative_path": "tcp_3015",
+            "parent_path": "/infra/services/odd_tcp_ports",
+            "unique_id": "281b60f8-0b3a-439f-8bb2-f3bb5d9f6701",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_system_owned": false,
+            "_create_user": "zhangda@vmware.com",
+            "_create_time": 1603683759560,
+            "_last_modified_user": "zhangda@vmware.com",
+            "_last_modified_time": 1603683759561,
+            "_protection": "NOT_PROTECTED",
+            "_revision": 0
+        },
+        {
+            "l4_protocol": "TCP",
+            "source_ports": [],
+            "destination_ports": [
+                "3023"
+            ],
+            "resource_type": "L4PortSetServiceEntry",
+            "id": "tcp_3023",
+            "display_name": "tcp_3023",
+            "path": "/infra/services/odd_tcp_ports/service-entries/tcp_3023",
+            "relative_path": "tcp_3023",
+            "parent_path": "/infra/services/odd_tcp_ports",
+            "unique_id": "8f37a964-7751-459e-af97-d274e7145fcf",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_system_owned": false,
+            "_create_user": "zhangda@vmware.com",
+            "_create_time": 1603683759566,
+            "_last_modified_user": "zhangda@vmware.com",
+            "_last_modified_time": 1603683759567,
+            "_protection": "NOT_PROTECTED",
+            "_revision": 0
+        },
+        {
+            "l4_protocol": "TCP",
+            "source_ports": [],
+            "destination_ports": [
+                "3001"
+            ],
+            "resource_type": "L4PortSetServiceEntry",
+            "id": "tcp_3001",
+            "display_name": "tcp_3001",
+            "path": "/infra/services/odd_tcp_ports/service-entries/tcp_3001",
+            "relative_path": "tcp_3001",
+            "parent_path": "/infra/services/odd_tcp_ports",
+            "unique_id": "ecd7085c-be95-41e3-87b2-5f092ee2965c",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_system_owned": false,
+            "_create_user": "zhangda@vmware.com",
+            "_create_time": 1603683759594,
+            "_last_modified_user": "zhangda@vmware.com",
+            "_last_modified_time": 1603683759595,
+            "_protection": "NOT_PROTECTED",
+            "_revision": 0
+        },
+        {
+            "l4_protocol": "TCP",
+            "source_ports": [],
+            "destination_ports": [
+                "3013"
+            ],
+            "resource_type": "L4PortSetServiceEntry",
+            "id": "tcp_3013",
+            "display_name": "tcp_3013",
+            "path": "/infra/services/odd_tcp_ports/service-entries/tcp_3013",
+            "relative_path": "tcp_3013",
+            "parent_path": "/infra/services/odd_tcp_ports",
+            "unique_id": "648a59de-6e6e-4201-b696-eeffe98835df",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_system_owned": false,
+            "_create_user": "zhangda@vmware.com",
+            "_create_time": 1603683759540,
+            "_last_modified_user": "zhangda@vmware.com",
+            "_last_modified_time": 1603683759541,
+            "_protection": "NOT_PROTECTED",
+            "_revision": 0
+        },
+        {
+            "l4_protocol": "TCP",
+            "source_ports": [],
+            "destination_ports": [
+                "3021"
+            ],
+            "resource_type": "L4PortSetServiceEntry",
+            "id": "tcp_3021",
+            "display_name": "tcp_3021",
+            "path": "/infra/services/odd_tcp_ports/service-entries/tcp_3021",
+            "relative_path": "tcp_3021",
+            "parent_path": "/infra/services/odd_tcp_ports",
+            "unique_id": "bf4ccdc7-a9d1-4dce-b40c-bf7e1e4e1da6",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_system_owned": false,
+            "_create_user": "zhangda@vmware.com",
+            "_create_time": 1603683759549,
+            "_last_modified_user": "zhangda@vmware.com",
+            "_last_modified_time": 1603683759550,
+            "_protection": "NOT_PROTECTED",
+            "_revision": 0
+        },
+        {
+            "l4_protocol": "TCP",
+            "source_ports": [],
+            "destination_ports": [
+                "3011"
+            ],
+            "resource_type": "L4PortSetServiceEntry",
+            "id": "tcp_3011",
+            "display_name": "tcp_3011",
+            "path": "/infra/services/odd_tcp_ports/service-entries/tcp_3011",
+            "relative_path": "tcp_3011",
+            "parent_path": "/infra/services/odd_tcp_ports",
+            "unique_id": "cbdd2bfb-cfcd-448e-afa9-2cbcaa860bcd",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_system_owned": false,
+            "_create_user": "zhangda@vmware.com",
+            "_create_time": 1603683759530,
+            "_last_modified_user": "zhangda@vmware.com",
+            "_last_modified_time": 1603683759531,
+            "_protection": "NOT_PROTECTED",
+            "_revision": 0
+        }
+    ],
+    "service_type": "NON_ETHER",
+    "resource_type": "Service",
+    "id": "odd_tcp_ports",
+    "display_name": "dfw_test1000_odd_tcp_ports",
+    "path": "/infra/services/odd_tcp_ports",
+    "relative_path": "odd_tcp_ports",
+    "parent_path": "/infra",
+    "unique_id": "e46d8b20-1cb3-429d-9143-739ece52ea7a",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "zhangda@vmware.com",
+    "_create_time": 1603683759520,
+    "_last_modified_user": "zhangda@vmware.com",
+    "_last_modified_time": 1603684174062,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 1
+}
+,
+{
+    "is_default": false,
+    "service_entries": [
+        {
+            "l4_protocol": "TCP",
+            "source_ports": [],
+            "destination_ports": [
+                "4003"
+            ],
+            "resource_type": "L4PortSetServiceEntry",
+            "id": "tcp_4003",
+            "display_name": "tcp_4003",
+            "path": "/infra/services/dfw_test1000_odd_tcp_ports_4k/service-entries/tcp_4003",
+            "relative_path": "tcp_4003",
+            "parent_path": "/infra/services/dfw_test1000_odd_tcp_ports_4k",
+            "unique_id": "f5778a23-4f02-4875-9fcd-2c334c28dc28",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_system_owned": false,
+            "_create_user": "zhangda@vmware.com",
+            "_create_time": 1603685175948,
+            "_last_modified_user": "zhangda@vmware.com",
+            "_last_modified_time": 1603685175949,
+            "_protection": "NOT_PROTECTED",
+            "_revision": 0
+        },
+        {
+            "l4_protocol": "TCP",
+            "source_ports": [],
+            "destination_ports": [
+                "4001"
+            ],
+            "resource_type": "L4PortSetServiceEntry",
+            "id": "tcp_4001",
+            "display_name": "tcp_4001",
+            "path": "/infra/services/dfw_test1000_odd_tcp_ports_4k/service-entries/tcp_4001",
+            "relative_path": "tcp_4001",
+            "parent_path": "/infra/services/dfw_test1000_odd_tcp_ports_4k",
+            "unique_id": "5b7f072e-18e4-4e29-9fbf-2f65184890bf",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_system_owned": false,
+            "_create_user": "zhangda@vmware.com",
+            "_create_time": 1603685175957,
+            "_last_modified_user": "zhangda@vmware.com",
+            "_last_modified_time": 1603685175958,
+            "_protection": "NOT_PROTECTED",
+            "_revision": 0
+        },
+        {
+            "l4_protocol": "TCP",
+            "source_ports": [],
+            "destination_ports": [
+                "4005"
+            ],
+            "resource_type": "L4PortSetServiceEntry",
+            "id": "tcp_4005",
+            "display_name": "tcp_4005",
+            "path": "/infra/services/dfw_test1000_odd_tcp_ports_4k/service-entries/tcp_4005",
+            "relative_path": "tcp_4005",
+            "parent_path": "/infra/services/dfw_test1000_odd_tcp_ports_4k",
+            "unique_id": "669e8d63-8516-4200-a361-02f8d75a8f69",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_system_owned": false,
+            "_create_user": "zhangda@vmware.com",
+            "_create_time": 1603685175953,
+            "_last_modified_user": "zhangda@vmware.com",
+            "_last_modified_time": 1603685175954,
+            "_protection": "NOT_PROTECTED",
+            "_revision": 0
+        }
+    ],
+    "service_type": "NON_ETHER",
+    "resource_type": "Service",
+    "id": "dfw_test1000_odd_tcp_ports_4k",
+    "display_name": "dfw_test1000_odd_tcp_ports_4k",
+    "path": "/infra/services/dfw_test1000_odd_tcp_ports_4k",
+    "relative_path": "dfw_test1000_odd_tcp_ports_4k",
+    "parent_path": "/infra",
+    "unique_id": "36aa17b8-9316-487f-b621-05eb70603f49",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "zhangda@vmware.com",
+    "_create_time": 1603685175943,
+    "_last_modified_user": "zhangda@vmware.com",
+    "_last_modified_time": 1603685175944,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 0
+}
+,
+{
+    "is_default": false,
+    "service_entries": [
+        {
+            "l4_protocol": "TCP",
+            "source_ports": [],
+            "destination_ports": [
+                "36000-36010"
+            ],
+            "resource_type": "L4PortSetServiceEntry",
+            "id": "TCP36000-36010",
+            "display_name": "TCP36000-36010",
+            "path": "/infra/services/dfw_test1000_servicerange/service-entries/TCP36000-36010",
+            "relative_path": "TCP36000-36010",
+            "parent_path": "/infra/services/dfw_test1000_servicerange",
+            "unique_id": "cb06cb54-f9a7-481a-a8e9-bb2949c5ee07",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_system_owned": false,
+            "_create_user": "zhangda@vmware.com",
+            "_create_time": 1603686082534,
+            "_last_modified_user": "zhangda@vmware.com",
+            "_last_modified_time": 1603686082536,
+            "_protection": "NOT_PROTECTED",
+            "_revision": 0
+        }
+    ],
+    "service_type": "NON_ETHER",
+    "resource_type": "Service",
+    "id": "dfw_test1000_servicerange",
+    "display_name": "dfw_test1000_servicerange",
+    "path": "/infra/services/dfw_test1000_servicerange",
+    "relative_path": "dfw_test1000_servicerange",
+    "parent_path": "/infra",
+    "unique_id": "2f1f8b64-3657-4c9b-851d-830d5e1f03a9",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "zhangda@vmware.com",
+    "_create_time": 1603686082531,
+    "_last_modified_user": "zhangda@vmware.com",
+    "_last_modified_time": 1603686082532,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 0
+}
+],
+"MGWRules": [
+{
+    "action": "ALLOW",
+    "resource_type": "Rule",
+    "id": "vCenter_Outbound",
+    "display_name": "vCenter Outbound",
+    "path": "/infra/domains/mgw/gateway-policies/default/rules/vCenter_Outbound",
+    "relative_path": "vCenter_Outbound",
+    "parent_path": "/infra/domains/mgw/gateway-policies/default",
+    "unique_id": "2038",
+    "marked_for_delete": false,
+    "overridden": false,
+    "rule_id": 2038,
+    "sequence_number": 20,
+    "sources_excluded": false,
+    "destinations_excluded": false,
+    "source_groups": [
+        "/infra/domains/mgw/groups/VCENTER"
+    ],
+    "destination_groups": [
+        "ANY"
+    ],
+    "services": [
+        "ANY"
+    ],
+    "profiles": [
+        "ANY"
+    ],
+    "logged": true,
+    "scope": [
+        "/infra/labels/mgw"
+    ],
+    "disabled": false,
+    "notes": "",
+    "direction": "IN_OUT",
+    "tag": "",
+    "ip_protocol": "IPV4_IPV6",
+    "is_default": false,
+    "_system_owned": false,
+    "_create_user": "nmyohtet@vmware.com",
+    "_create_time": 1604036413718,
+    "_last_modified_user": "zhangda@vmware.com",
+    "_last_modified_time": 1604294418770,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 1
+},
+{
+    "action": "ALLOW",
+    "resource_type": "Rule",
+    "id": "HCX_Inbound",
+    "display_name": "HCX Inbound",
+    "path": "/infra/domains/mgw/gateway-policies/default/rules/HCX_Inbound",
+    "relative_path": "HCX_Inbound",
+    "parent_path": "/infra/domains/mgw/gateway-policies/default",
+    "unique_id": "2039",
+    "marked_for_delete": false,
+    "overridden": false,
+    "rule_id": 2039,
+    "sequence_number": 30,
+    "sources_excluded": false,
+    "destinations_excluded": false,
+    "source_groups": [
+        "ANY"
+    ],
+    "destination_groups": [
+        "/infra/domains/mgw/groups/HCX"
+    ],
+    "services": [
+        "/infra/services/ICMP_Echo_Request",
+        "/infra/services/SSH",
+        "/infra/services/HTTPS",
+        "/infra/services/HCX-ApplianceManagement"
+    ],
+    "profiles": [
+        "ANY"
+    ],
+    "logged": false,
+    "scope": [
+        "/infra/labels/mgw"
+    ],
+    "disabled": false,
+    "notes": "",
+    "direction": "IN_OUT",
+    "tag": "",
+    "ip_protocol": "IPV4_IPV6",
+    "is_default": false,
+    "_system_owned": false,
+    "_create_user": "zhangda@vmware.com",
+    "_create_time": 1604294418740,
+    "_last_modified_user": "nmyohtet@vmware.com",
+    "_last_modified_time": 1606187022511,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 1
+},
+{
+    "action": "ALLOW",
+    "resource_type": "Rule",
+    "id": "NSXM_Inbound",
+    "display_name": "NSXM Inbound",
+    "path": "/infra/domains/mgw/gateway-policies/default/rules/NSXM_Inbound",
+    "relative_path": "NSXM_Inbound",
+    "parent_path": "/infra/domains/mgw/gateway-policies/default",
+    "unique_id": "2026",
+    "marked_for_delete": false,
+    "overridden": false,
+    "rule_id": 2026,
+    "sequence_number": 40,
+    "sources_excluded": false,
+    "destinations_excluded": false,
+    "source_groups": [
+        "ANY"
+    ],
+    "destination_groups": [
+        "/infra/domains/mgw/groups/NSX-MANAGER"
+    ],
+    "services": [
+        "/infra/services/HTTPS"
+    ],
+    "profiles": [
+        "ANY"
+    ],
+    "logged": false,
+    "scope": [
+        "/infra/labels/mgw"
+    ],
+    "disabled": false,
+    "notes": "",
+    "direction": "IN_OUT",
+    "tag": "",
+    "ip_protocol": "IPV4_IPV6",
+    "is_default": false,
+    "_system_owned": false,
+    "_create_user": "zhangda@vmware.com",
+    "_create_time": 1603174977590,
+    "_last_modified_user": "zhangda@vmware.com",
+    "_last_modified_time": 1604294418812,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 2
+}],
+"CGWRules": [
+{
+    "action": "ALLOW",
+    "resource_type": "Rule",
+    "id": "vmc-to-gcp",
+    "display_name": "vmc-to-gcp",
+    "path": "/infra/domains/cgw/gateway-policies/default/rules/vmc-to-gcp",
+    "relative_path": "vmc-to-gcp",
+    "parent_path": "/infra/domains/cgw/gateway-policies/default",
+    "unique_id": "2175",
+    "marked_for_delete": false,
+    "overridden": false,
+    "rule_id": 2175,
+    "sequence_number": 2097151,
+    "sources_excluded": false,
+    "destinations_excluded": false,
+    "source_groups": [
+        "/infra/domains/cgw/groups/WIN"
+    ],
+    "destination_groups": [
+        "/infra/domains/cgw/groups/gcp-vpc"
+    ],
+    "services": [
+        "ANY"
+    ],
+    "profiles": [
+        "ANY"
+    ],
+    "logged": true,
+    "scope": [
+        "/infra/labels/cgw-vpn"
+    ],
+    "disabled": false,
+    "notes": "",
+    "direction": "IN_OUT",
+    "tag": "",
+    "ip_protocol": "IPV4_IPV6",
+    "is_default": false,
+    "_system_owned": false,
+    "_create_user": "nmyohtet@vmware.com",
+    "_create_time": 1606282795226,
+    "_last_modified_user": "shashir@vmware.com",
+    "_last_modified_time": 1606474630132,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 20
+},
+{
+    "action": "ALLOW",
+    "resource_type": "Rule",
+    "id": "gcp-to-vmc",
+    "display_name": "gcp-to-vmc",
+    "path": "/infra/domains/cgw/gateway-policies/default/rules/gcp-to-vmc",
+    "relative_path": "gcp-to-vmc",
+    "parent_path": "/infra/domains/cgw/gateway-policies/default",
+    "unique_id": "2176",
+    "marked_for_delete": false,
+    "overridden": false,
+    "rule_id": 2176,
+    "sequence_number": 4194303,
+    "sources_excluded": false,
+    "destinations_excluded": false,
+    "source_groups": [
+        "/infra/domains/cgw/groups/gcp-vpc"
+    ],
+    "destination_groups": [
+        "/infra/domains/cgw/groups/WIN"
+    ],
+    "services": [
+        "ANY"
+    ],
+    "profiles": [
+        "ANY"
+    ],
+    "logged": true,
+    "scope": [
+        "/infra/labels/cgw-vpn"
+    ],
+    "disabled": false,
+    "notes": "",
+    "direction": "IN_OUT",
+    "tag": "",
+    "ip_protocol": "IPV4_IPV6",
+    "is_default": false,
+    "_system_owned": false,
+    "_create_user": "nmyohtet@vmware.com",
+    "_create_time": 1606282844802,
+    "_last_modified_user": "shashir@vmware.com",
+    "_last_modified_time": 1606474630147,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 18
+},
+{
+    "action": "ALLOW",
+    "resource_type": "Rule",
+    "id": "Internet_Access",
+    "display_name": "Internet Access",
+    "path": "/infra/domains/cgw/gateway-policies/default/rules/Internet_Access",
+    "relative_path": "Internet_Access",
+    "parent_path": "/infra/domains/cgw/gateway-policies/default",
+    "unique_id": "2028",
+    "marked_for_delete": false,
+    "overridden": false,
+    "rule_id": 2028,
+    "sequence_number": 16777215,
+    "sources_excluded": false,
+    "destinations_excluded": false,
+    "source_groups": [
+        "/infra/domains/cgw/groups/Internet_Accessible_VMs"
+    ],
+    "destination_groups": [
+        "ANY"
+    ],
+    "services": [
+        "ANY"
+    ],
+    "profiles": [
+        "ANY"
+    ],
+    "logged": true,
+    "scope": [
+        "/infra/labels/cgw-public"
+    ],
+    "disabled": false,
+    "notes": "",
+    "direction": "IN_OUT",
+    "tag": "Internet Access",
+    "ip_protocol": "IPV4_IPV6",
+    "is_default": false,
+    "_system_owned": false,
+    "_create_user": "nmyohtet@vmware.com",
+    "_create_time": 1603340308376,
+    "_last_modified_user": "admin",
+    "_last_modified_time": 1606341535624,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 32
+},
+{
+    "action": "ALLOW",
+    "resource_type": "Rule",
+    "id": "aaa_http",
+    "display_name": "aaa_http",
+    "path": "/infra/domains/cgw/gateway-policies/default/rules/aaa_http",
+    "relative_path": "aaa_http",
+    "parent_path": "/infra/domains/cgw/gateway-policies/default",
+    "unique_id": "2106",
+    "marked_for_delete": false,
+    "overridden": false,
+    "rule_id": 2106,
+    "sequence_number": 33554431,
+    "sources_excluded": false,
+    "destinations_excluded": false,
+    "source_groups": [
+        "ANY"
+    ],
+    "destination_groups": [
+        "/infra/domains/cgw/groups/WIN-001"
+    ],
+    "services": [
+        "/infra/services/HTTP"
+    ],
+    "service_entries": [],
+    "profiles": [
+        "ANY"
+    ],
+    "logged": true,
+    "scope": [
+        "/infra/labels/cgw-public"
+    ],
+    "disabled": false,
+    "notes": "",
+    "direction": "IN_OUT",
+    "tag": "",
+    "ip_protocol": "IPV4_IPV6",
+    "is_default": false,
+    "_system_owned": false,
+    "_create_user": "nmyohtet@vmware.com",
+    "_create_time": 1605689602389,
+    "_last_modified_user": "admin",
+    "_last_modified_time": 1606341535639,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 3
+},
+{
+    "action": "ALLOW",
+    "resource_type": "Rule",
+    "id": "aaa_rdp",
+    "display_name": "aaa_rdp",
+    "path": "/infra/domains/cgw/gateway-policies/default/rules/aaa_rdp",
+    "relative_path": "aaa_rdp",
+    "parent_path": "/infra/domains/cgw/gateway-policies/default",
+    "unique_id": "2105",
+    "marked_for_delete": false,
+    "overridden": false,
+    "rule_id": 2105,
+    "sequence_number": 67108863,
+    "sources_excluded": false,
+    "destinations_excluded": false,
+    "source_groups": [
+        "ANY"
+    ],
+    "destination_groups": [
+        "/infra/domains/cgw/groups/WIN-DC01"
+    ],
+    "services": [
+        "/infra/services/RDP"
+    ],
+    "service_entries": [],
+    "profiles": [
+        "ANY"
+    ],
+    "logged": true,
+    "scope": [
+        "/infra/labels/cgw-public"
+    ],
+    "disabled": false,
+    "notes": "",
+    "direction": "IN_OUT",
+    "tag": "",
+    "ip_protocol": "IPV4_IPV6",
+    "is_default": false,
+    "_system_owned": false,
+    "_create_user": "nmyohtet@vmware.com",
+    "_create_time": 1605688579131,
+    "_last_modified_user": "admin",
+    "_last_modified_time": 1606341535649,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 5
+},
+{
+    "action": "ALLOW",
+    "resource_type": "Rule",
+    "id": "RDP",
+    "display_name": "RDP",
+    "path": "/infra/domains/cgw/gateway-policies/default/rules/RDP",
+    "relative_path": "RDP",
+    "parent_path": "/infra/domains/cgw/gateway-policies/default",
+    "unique_id": "2025",
+    "marked_for_delete": false,
+    "overridden": false,
+    "rule_id": 2025,
+    "sequence_number": 268435455,
+    "sources_excluded": false,
+    "destinations_excluded": false,
+    "source_groups": [
+        "/infra/domains/cgw/groups/HomePublic",
+        "/infra/domains/cgw/groups/nay_home"
+    ],
+    "destination_groups": [
+        "/infra/domains/cgw/groups/WinDC01"
+    ],
+    "services": [
+        "ANY"
+    ],
+    "profiles": [
+        "ANY"
+    ],
+    "logged": true,
+    "scope": [
+        "/infra/labels/cgw-all"
+    ],
+    "disabled": false,
+    "notes": "",
+    "direction": "IN_OUT",
+    "tag": "",
+    "ip_protocol": "IPV4_IPV6",
+    "is_default": false,
+    "_system_owned": false,
+    "_create_user": "zhangda@vmware.com",
+    "_create_time": 1603003667448,
+    "_last_modified_user": "admin",
+    "_last_modified_time": 1606341513259,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 3
+},
+{
+    "action": "ALLOW",
+    "resource_type": "Rule",
+    "id": "Inbound",
+    "display_name": "Inbound",
+    "path": "/infra/domains/cgw/gateway-policies/default/rules/Inbound",
+    "relative_path": "Inbound",
+    "parent_path": "/infra/domains/cgw/gateway-policies/default",
+    "unique_id": "2024",
+    "marked_for_delete": false,
+    "overridden": false,
+    "rule_id": 2024,
+    "sequence_number": 536870911,
+    "sources_excluded": false,
+    "destinations_excluded": false,
+    "source_groups": [
+        "/infra/domains/cgw/groups/10Network"
+    ],
+    "destination_groups": [
+        "ANY"
+    ],
+    "services": [
+        "ANY"
+    ],
+    "profiles": [
+        "ANY"
+    ],
+    "logged": false,
+    "scope": [
+        "/infra/labels/cgw-vpn"
+    ],
+    "disabled": false,
+    "notes": "",
+    "direction": "IN_OUT",
+    "tag": "",
+    "ip_protocol": "IPV4_IPV6",
+    "is_default": false,
+    "_system_owned": false,
+    "_create_user": "zhangda@vmware.com",
+    "_create_time": 1602721455294,
+    "_last_modified_user": "shashir@vmware.com",
+    "_last_modified_time": 1606474630104,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 50
+},
+{
+    "action": "ALLOW",
+    "resource_type": "Rule",
+    "id": "Net100-Outbound",
+    "display_name": "Net100-Outbound",
+    "path": "/infra/domains/cgw/gateway-policies/default/rules/Net100-Outbound",
+    "relative_path": "Net100-Outbound",
+    "parent_path": "/infra/domains/cgw/gateway-policies/default",
+    "unique_id": "1019",
+    "marked_for_delete": false,
+    "overridden": false,
+    "rule_id": 1019,
+    "sequence_number": 1073741823,
+    "sources_excluded": false,
+    "destinations_excluded": false,
+    "source_groups": [
+        "/infra/domains/cgw/groups/net100"
+    ],
+    "destination_groups": [
+        "ANY"
+    ],
+    "services": [
+        "ANY"
+    ],
+    "profiles": [
+        "ANY"
+    ],
+    "logged": false,
+    "scope": [
+        "/infra/labels/cgw-all"
+    ],
+    "disabled": false,
+    "notes": "",
+    "direction": "IN_OUT",
+    "tag": "",
+    "ip_protocol": "IPV4_IPV6",
+    "is_default": false,
+    "_system_owned": false,
+    "_create_user": "zhangda@vmware.com",
+    "_create_time": 1602197563842,
+    "_last_modified_user": "admin",
+    "_last_modified_time": 1606341513275,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 1
+}],
+"DFWRules": [
+{
+  "communication_entries" : [ {
+    "sequence_number" : 10,
+    "source_groups" : [ "/infra/domains/cgw/groups/WIN-WEB" ],
+    "destination_groups" : [ "/infra/domains/cgw/groups/WIN-WEB" ],
+    "services" : [ "ANY" ],
+    "action" : "ALLOW",
+    "logged" : true,
+    "scope" : [ "ANY" ],
+    "disabled" : false,
+    "notes" : "",
+    "direction" : "IN_OUT",
+    "resource_type" : "CommunicationEntry",
+    "id" : "New_Rule",
+    "display_name" : "New Rule",
+    "path" : "/infra/domains/cgw/security-policies/WIN-TEST/rules/New_Rule",
+    "relative_path" : "New_Rule",
+    "parent_path" : "/infra/domains/cgw/security-policies/WIN-TEST",
+    "unique_id" : "2115",
+    "marked_for_delete" : false,
+    "overridden" : false,
+    "_system_owned" : false,
+    "_create_user" : "nmyohtet@vmware.com",
+    "_create_time" : 1606053633222,
+    "_last_modified_user" : "nmyohtet@vmware.com",
+    "_last_modified_time" : 1606188829263,
+    "_protection" : "NOT_PROTECTED",
+    "_revision" : 1
+  }, {
+    "sequence_number" : 15,
+    "source_groups" : [ "/infra/domains/cgw/groups/WIN-APP-DB" ],
+    "destination_groups" : [ "/infra/domains/cgw/groups/WIN-APP-DB" ],
+    "services" : [ "ANY" ],
+    "action" : "ALLOW",
+    "logged" : true,
+    "scope" : [ "ANY" ],
+    "disabled" : false,
+    "notes" : "",
+    "direction" : "IN_OUT",
+    "resource_type" : "CommunicationEntry",
+    "id" : "New_Rule-xCJawQmQR",
+    "display_name" : "New Rule",
+    "path" : "/infra/domains/cgw/security-policies/WIN-TEST/rules/New_Rule-xCJawQmQR",
+    "relative_path" : "New_Rule-xCJawQmQR",
+    "parent_path" : "/infra/domains/cgw/security-policies/WIN-TEST",
+    "unique_id" : "2116",
+    "marked_for_delete" : false,
+    "overridden" : false,
+    "_system_owned" : false,
+    "_create_user" : "nmyohtet@vmware.com",
+    "_create_time" : 1606053633244,
+    "_last_modified_user" : "nmyohtet@vmware.com",
+    "_last_modified_time" : 1606188829294,
+    "_protection" : "NOT_PROTECTED",
+    "_revision" : 1
+  }, {
+    "sequence_number" : 20,
+    "source_groups" : [ "/infra/domains/cgw/groups/WIN-WEB-DB" ],
+    "destination_groups" : [ "/infra/domains/cgw/groups/WIN-WEB-DB" ],
+    "services" : [ "ANY" ],
+    "action" : "REJECT",
+    "logged" : true,
+    "scope" : [ "ANY" ],
+    "disabled" : false,
+    "notes" : "",
+    "direction" : "IN_OUT",
+    "resource_type" : "CommunicationEntry",
+    "id" : "New_Rule-UTLdFt4vAp",
+    "display_name" : "New Rule",
+    "path" : "/infra/domains/cgw/security-policies/WIN-TEST/rules/New_Rule-UTLdFt4vAp",
+    "relative_path" : "New_Rule-UTLdFt4vAp",
+    "parent_path" : "/infra/domains/cgw/security-policies/WIN-TEST",
+    "unique_id" : "2117",
+    "marked_for_delete" : false,
+    "overridden" : false,
+    "_system_owned" : false,
+    "_create_user" : "nmyohtet@vmware.com",
+    "_create_time" : 1606053633259,
+    "_last_modified_user" : "nmyohtet@vmware.com",
+    "_last_modified_time" : 1606188829310,
+    "_protection" : "NOT_PROTECTED",
+    "_revision" : 1
+  } ],
+  "precedence" : 2,
+  "category" : "Application",
+  "resource_type" : "CommunicationMap",
+  "id" : "WIN-TEST",
+  "display_name" : "WIN-TEST",
+  "path" : "/infra/domains/cgw/security-policies/WIN-TEST",
+  "relative_path" : "WIN-TEST",
+  "parent_path" : "/infra/domains/cgw",
+  "unique_id" : "ab96d057-9e87-4fb7-801a-375ad7a6862b",
+  "marked_for_delete" : false,
+  "overridden" : false,
+  "_system_owned" : false,
+  "_create_user" : "nmyohtet@vmware.com",
+  "_create_time" : 1606053526985,
+  "_last_modified_user" : "nmyohtet@vmware.com",
+  "_last_modified_time" : 1606053526986,
+  "_protection" : "NOT_PROTECTED",
+  "_revision" : 0
+},
+{
+  "communication_entries" : [ {
+    "sequence_number" : 10,
+    "source_groups" : [ "/infra/domains/cgw/groups/SourceNetworks" ],
+    "destination_groups" : [ "/infra/tier-0s/vmc/groups/s3_prefixes" ],
+    "services" : [ "/infra/services/dfw_test1000_nestedservice" ],
+    "action" : "ALLOW",
+    "logged" : true,
+    "scope" : [ "/infra/domains/cgw/groups/dfw-vms" ],
+    "disabled" : false,
+    "notes" : "",
+    "direction" : "IN_OUT",
+    "resource_type" : "CommunicationEntry",
+    "id" : "serviceports",
+    "display_name" : "serviceports",
+    "path" : "/infra/domains/cgw/security-policies/DFW-rule-test/rules/serviceports",
+    "relative_path" : "serviceports",
+    "parent_path" : "/infra/domains/cgw/security-policies/DFW-rule-test",
+    "unique_id" : "2035",
+    "marked_for_delete" : false,
+    "overridden" : false,
+    "_system_owned" : false,
+    "_create_user" : "zhangda@vmware.com",
+    "_create_time" : 1603691398531,
+    "_last_modified_user" : "zhangda@vmware.com",
+    "_last_modified_time" : 1603691398534,
+    "_protection" : "NOT_PROTECTED",
+    "_revision" : 0
+  }, {
+    "sequence_number" : 20,
+    "source_groups" : [ "/infra/domains/cgw/groups/SourceNetworks" ],
+    "destination_groups" : [ "/infra/tier-0s/vmc/groups/s3_prefixes" ],
+    "services" : [ "/infra/services/dfw_test1000_nested" ],
+    "action" : "ALLOW",
+    "logged" : true,
+    "scope" : [ "/infra/domains/cgw/groups/dfw-vms" ],
+    "disabled" : false,
+    "notes" : "",
+    "direction" : "IN_OUT",
+    "resource_type" : "CommunicationEntry",
+    "id" : "nested_servicegroups",
+    "display_name" : "nested_servicegroups",
+    "path" : "/infra/domains/cgw/security-policies/DFW-rule-test/rules/nested_servicegroups",
+    "relative_path" : "nested_servicegroups",
+    "parent_path" : "/infra/domains/cgw/security-policies/DFW-rule-test",
+    "unique_id" : "2034",
+    "marked_for_delete" : false,
+    "overridden" : false,
+    "_system_owned" : false,
+    "_create_user" : "zhangda@vmware.com",
+    "_create_time" : 1603685290099,
+    "_last_modified_user" : "zhangda@vmware.com",
+    "_last_modified_time" : 1603691398569,
+    "_protection" : "NOT_PROTECTED",
+    "_revision" : 2
+  }, {
+    "sequence_number" : 30,
+    "source_groups" : [ "/infra/domains/cgw/groups/SourceNetworks" ],
+    "destination_groups" : [ "ANY" ],
+    "services" : [ "/infra/services/odd_tcp_ports", "/infra/services/TGP_UDP_ICMP_4500", "/infra/services/dfw_test1000_servicerange" ],
+    "action" : "ALLOW",
+    "logged" : true,
+    "scope" : [ "/infra/domains/cgw/groups/dfw-vms" ],
+    "disabled" : false,
+    "notes" : "",
+    "direction" : "IN_OUT",
+    "resource_type" : "CommunicationEntry",
+    "id" : "New_Rule-jKhabBEaZ",
+    "display_name" : "tcp_udp_icmp",
+    "path" : "/infra/domains/cgw/security-policies/DFW-rule-test/rules/New_Rule-jKhabBEaZ",
+    "relative_path" : "New_Rule-jKhabBEaZ",
+    "parent_path" : "/infra/domains/cgw/security-policies/DFW-rule-test",
+    "unique_id" : "2033",
+    "marked_for_delete" : false,
+    "overridden" : false,
+    "_system_owned" : false,
+    "_create_user" : "zhangda@vmware.com",
+    "_create_time" : 1603683553859,
+    "_last_modified_user" : "zhangda@vmware.com",
+    "_last_modified_time" : 1603691398591,
+    "_protection" : "NOT_PROTECTED",
+    "_revision" : 5
+  }, {
+    "sequence_number" : 40,
+    "source_groups" : [ "ANY" ],
+    "destination_groups" : [ "ANY" ],
+    "services" : [ "ANY" ],
+    "action" : "ALLOW",
+    "logged" : true,
+    "scope" : [ "/infra/domains/cgw/groups/dfw-vms" ],
+    "disabled" : false,
+    "notes" : "",
+    "direction" : "IN_OUT",
+    "resource_type" : "CommunicationEntry",
+    "id" : "New_Rule",
+    "display_name" : "rule1001",
+    "path" : "/infra/domains/cgw/security-policies/DFW-rule-test/rules/New_Rule",
+    "relative_path" : "New_Rule",
+    "parent_path" : "/infra/domains/cgw/security-policies/DFW-rule-test",
+    "unique_id" : "2032",
+    "marked_for_delete" : false,
+    "overridden" : false,
+    "_system_owned" : false,
+    "_create_user" : "zhangda@vmware.com",
+    "_create_time" : 1603668036867,
+    "_last_modified_user" : "zhangda@vmware.com",
+    "_last_modified_time" : 1603691398608,
+    "_protection" : "NOT_PROTECTED",
+    "_revision" : 3
+  }, {
+    "sequence_number" : 50,
+    "source_groups" : [ "/infra/domains/cgw/groups/SourceNetworks" ],
+    "destination_groups" : [ "/infra/domains/cgw/groups/dfw-destinations" ],
+    "services" : [ "ANY" ],
+    "action" : "ALLOW",
+    "logged" : true,
+    "scope" : [ "/infra/domains/cgw/groups/dfw-vms" ],
+    "disabled" : false,
+    "notes" : "",
+    "direction" : "IN_OUT",
+    "resource_type" : "CommunicationEntry",
+    "id" : "rule1000",
+    "display_name" : "rule1000",
+    "path" : "/infra/domains/cgw/security-policies/DFW-rule-test/rules/rule1000",
+    "relative_path" : "rule1000",
+    "parent_path" : "/infra/domains/cgw/security-policies/DFW-rule-test",
+    "unique_id" : "2031",
+    "marked_for_delete" : false,
+    "overridden" : false,
+    "_system_owned" : false,
+    "_create_user" : "zhangda@vmware.com",
+    "_create_time" : 1603491752191,
+    "_last_modified_user" : "zhangda@vmware.com",
+    "_last_modified_time" : 1603691398624,
+    "_protection" : "NOT_PROTECTED",
+    "_revision" : 2
+  } ],
+  "precedence" : 5,
+  "category" : "Application",
+  "resource_type" : "CommunicationMap",
+  "id" : "DFW-rule-test",
+  "display_name" : "DFW-rule-test",
+  "path" : "/infra/domains/cgw/security-policies/DFW-rule-test",
+  "relative_path" : "DFW-rule-test",
+  "parent_path" : "/infra/domains/cgw",
+  "unique_id" : "ad91c993-4bb7-4ddc-b964-61304fc63082",
+  "marked_for_delete" : false,
+  "overridden" : false,
+  "_system_owned" : false,
+  "_create_user" : "zhangda@vmware.com",
+  "_create_time" : 1603491752157,
+  "_last_modified_user" : "zhangda@vmware.com",
+  "_last_modified_time" : 1603690056690,
+  "_protection" : "NOT_PROTECTED",
+  "_revision" : 1
+}],
+"IKEProfiles": [
+{
+    "digest_algorithms": [
+        "SHA2_256"
+    ],
+    "encryption_algorithms": [
+        "AES_256"
+    ],
+    "ike_version": "IKE_V2",
+    "dh_groups": [
+        "GROUP14"
+    ],
+    "sa_life_time": 86400,
+    "resource_type": "IPSecVpnIkeProfile",
+    "id": "04e12120-2eea-11eb-afca-d15bf4e8ed4d",
+    "display_name": "04e12120-2eea-11eb-afca-d15bf4e8ed4d",
+    "path": "/infra/ipsec-vpn-ike-profiles/04e12120-2eea-11eb-afca-d15bf4e8ed4d",
+    "relative_path": "04e12120-2eea-11eb-afca-d15bf4e8ed4d",
+    "parent_path": "/infra",
+    "unique_id": "9e86b547-e327-426b-934d-a5ab040131af",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "nmyohtet@vmware.com",
+    "_create_time": 1606286946392,
+    "_last_modified_user": "nmyohtet@vmware.com",
+    "_last_modified_time": 1606286946394,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 0
+},
+{
+    "digest_algorithms": [
+        "SHA2_256"
+    ],
+    "encryption_algorithms": [
+        "AES_256"
+    ],
+    "ike_version": "IKE_V1",
+    "dh_groups": [
+        "GROUP14"
+    ],
+    "sa_life_time": 86400,
+    "resource_type": "IPSecVpnIkeProfile",
+    "id": "1bc6aed0-09ad-11eb-8265-9ba9d5d3adbc",
+    "display_name": "1bc6aed0-09ad-11eb-8265-9ba9d5d3adbc",
+    "path": "/infra/ipsec-vpn-ike-profiles/1bc6aed0-09ad-11eb-8265-9ba9d5d3adbc",
+    "relative_path": "1bc6aed0-09ad-11eb-8265-9ba9d5d3adbc",
+    "parent_path": "/infra",
+    "unique_id": "b3e4560a-3864-4ef9-b9a8-db446640ccea",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "zhangda@vmware.com",
+    "_create_time": 1602192528134,
+    "_last_modified_user": "zhangda@vmware.com",
+    "_last_modified_time": 1602192528135,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 0
+},
+{
+    "digest_algorithms": [
+        "SHA2_256"
+    ],
+    "encryption_algorithms": [
+        "AES_256"
+    ],
+    "ike_version": "IKE_V2",
+    "dh_groups": [
+        "GROUP14"
+    ],
+    "sa_life_time": 86400,
+    "resource_type": "IPSecVpnIkeProfile",
+    "id": "88d4fba0-2ee5-11eb-afca-d15bf4e8ed4d",
+    "display_name": "88d4fba0-2ee5-11eb-afca-d15bf4e8ed4d",
+    "path": "/infra/ipsec-vpn-ike-profiles/88d4fba0-2ee5-11eb-afca-d15bf4e8ed4d",
+    "relative_path": "88d4fba0-2ee5-11eb-afca-d15bf4e8ed4d",
+    "parent_path": "/infra",
+    "unique_id": "dd8aa93b-543e-4ab5-860b-32e5e5f228ad",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "nmyohtet@vmware.com",
+    "_create_time": 1606286721143,
+    "_last_modified_user": "nmyohtet@vmware.com",
+    "_last_modified_time": 1606286721144,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 0
+},
+{
+    "digest_algorithms": [
+        "SHA2_256"
+    ],
+    "encryption_algorithms": [
+        "AES_128"
+    ],
+    "ike_version": "IKE_V2",
+    "dh_groups": [
+        "GROUP14"
+    ],
+    "sa_life_time": 86400,
+    "resource_type": "IPSecVpnIkeProfile",
+    "id": "shashi-ike-profile",
+    "display_name": "shashi-ike-profile",
+    "path": "/infra/ipsec-vpn-ike-profiles/shashi-ike-profile",
+    "relative_path": "shashi-ike-profile",
+    "parent_path": "/infra",
+    "unique_id": "c9b6651a-dde7-461b-8fe7-34c9c07506f5",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "shashir@vmware.com",
+    "_create_time": 1606474418534,
+    "_last_modified_user": "shashir@vmware.com",
+    "_last_modified_time": 1606474418535,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 0
+}],
+"TunnelProfiles": [
+{
+    "digest_algorithms": [
+        "SHA2_256"
+    ],
+    "encryption_algorithms": [
+        "AES_256"
+    ],
+    "enable_perfect_forward_secrecy": true,
+    "dh_groups": [
+        "GROUP14"
+    ],
+    "sa_life_time": 3600,
+    "df_policy": "COPY",
+    "resource_type": "IPSecVpnTunnelProfile",
+    "id": "04e12120-2eea-11eb-afca-d15bf4e8ed4d",
+    "display_name": "04e12120-2eea-11eb-afca-d15bf4e8ed4d",
+    "path": "/infra/ipsec-vpn-tunnel-profiles/04e12120-2eea-11eb-afca-d15bf4e8ed4d",
+    "relative_path": "04e12120-2eea-11eb-afca-d15bf4e8ed4d",
+    "parent_path": "/infra",
+    "unique_id": "e9366c66-acf0-47ce-99a8-f8c5a7f6d82c",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "nmyohtet@vmware.com",
+    "_create_time": 1606286946382,
+    "_last_modified_user": "nmyohtet@vmware.com",
+    "_last_modified_time": 1606286946383,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 0
+},
+{
+    "digest_algorithms": [
+        "SHA2_256"
+    ],
+    "encryption_algorithms": [
+        "AES_256"
+    ],
+    "enable_perfect_forward_secrecy": true,
+    "dh_groups": [
+        "GROUP14"
+    ],
+    "sa_life_time": 3600,
+    "df_policy": "COPY",
+    "resource_type": "IPSecVpnTunnelProfile",
+    "id": "1bc6aed0-09ad-11eb-8265-9ba9d5d3adbc",
+    "display_name": "1bc6aed0-09ad-11eb-8265-9ba9d5d3adbc",
+    "path": "/infra/ipsec-vpn-tunnel-profiles/1bc6aed0-09ad-11eb-8265-9ba9d5d3adbc",
+    "relative_path": "1bc6aed0-09ad-11eb-8265-9ba9d5d3adbc",
+    "parent_path": "/infra",
+    "unique_id": "5e9c6509-189d-49e7-b9de-aebe5532fddd",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "zhangda@vmware.com",
+    "_create_time": 1602192528093,
+    "_last_modified_user": "zhangda@vmware.com",
+    "_last_modified_time": 1602192528094,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 0
+},
+{
+    "digest_algorithms": [
+        "SHA2_256"
+    ],
+    "encryption_algorithms": [
+        "AES_256"
+    ],
+    "enable_perfect_forward_secrecy": true,
+    "dh_groups": [
+        "GROUP14"
+    ],
+    "sa_life_time": 3600,
+    "df_policy": "COPY",
+    "resource_type": "IPSecVpnTunnelProfile",
+    "id": "88d4fba0-2ee5-11eb-afca-d15bf4e8ed4d",
+    "display_name": "88d4fba0-2ee5-11eb-afca-d15bf4e8ed4d",
+    "path": "/infra/ipsec-vpn-tunnel-profiles/88d4fba0-2ee5-11eb-afca-d15bf4e8ed4d",
+    "relative_path": "88d4fba0-2ee5-11eb-afca-d15bf4e8ed4d",
+    "parent_path": "/infra",
+    "unique_id": "b4cf232e-0042-4a9f-a62e-6f2f97d3dc40",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "nmyohtet@vmware.com",
+    "_create_time": 1606286721123,
+    "_last_modified_user": "nmyohtet@vmware.com",
+    "_last_modified_time": 1606286721124,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 0
+},
+{
+    "digest_algorithms": [],
+    "encryption_algorithms": [
+        "AES_GCM_128"
+    ],
+    "enable_perfect_forward_secrecy": true,
+    "dh_groups": [
+        "GROUP14"
+    ],
+    "sa_life_time": 3600,
+    "df_policy": "COPY",
+    "resource_type": "IPSecVpnTunnelProfile",
+    "id": "shashi-tunnel-profile",
+    "display_name": "shashi-tunnel-profile",
+    "path": "/infra/ipsec-vpn-tunnel-profiles/shashi-tunnel-profile",
+    "relative_path": "shashi-tunnel-profile",
+    "parent_path": "/infra",
+    "unique_id": "8c70794a-9aab-4321-b340-6b3cb3bfe779",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "shashir@vmware.com",
+    "_create_time": 1606474426618,
+    "_last_modified_user": "shashir@vmware.com",
+    "_last_modified_time": 1606474426620,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 0
+}],
+"BGPNeighbors": [
+{
+    "neighbor_address": "169.254.112.1",
+    "remote_as_num": "65500",
+    "route_filtering": [
+        {
+            "enabled": true,
+            "address_family": "IPV4"
+        }
+    ],
+    "keep_alive_time": 60,
+    "hold_down_time": 180,
+    "allow_as_in": false,
+    "maximum_hop_limit": 1,
+    "resource_type": "BgpNeighborConfig",
+    "id": "04e12121-2eea-11eb-afca-d15bf4e8ed4d",
+    "display_name": "04e12121-2eea-11eb-afca-d15bf4e8ed4d",
+    "path": "/infra/tier-0s/vmc/locale-services/default/bgp/neighbors/04e12121-2eea-11eb-afca-d15bf4e8ed4d",
+    "relative_path": "04e12121-2eea-11eb-afca-d15bf4e8ed4d",
+    "parent_path": "/infra/tier-0s/vmc/locale-services/default/bgp",
+    "unique_id": "df5107a5-5103-40fd-8cb4-e96a28d70d1d",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "nmyohtet@vmware.com",
+    "_create_time": 1606286946666,
+    "_last_modified_user": "nmyohtet@vmware.com",
+    "_last_modified_time": 1606286946668,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 0
+},
+{
+    "neighbor_address": "169.254.52.2",
+    "remote_as_num": "65052",
+    "route_filtering": [
+        {
+            "enabled": true,
+            "address_family": "IPV4"
+        }
+    ],
+    "keep_alive_time": 60,
+    "hold_down_time": 180,
+    "allow_as_in": false,
+    "maximum_hop_limit": 1,
+    "resource_type": "BgpNeighborConfig",
+    "id": "1bc6aed1-09ad-11eb-8265-9ba9d5d3adbc",
+    "display_name": "1bc6aed1-09ad-11eb-8265-9ba9d5d3adbc",
+    "path": "/infra/tier-0s/vmc/locale-services/default/bgp/neighbors/1bc6aed1-09ad-11eb-8265-9ba9d5d3adbc",
+    "relative_path": "1bc6aed1-09ad-11eb-8265-9ba9d5d3adbc",
+    "parent_path": "/infra/tier-0s/vmc/locale-services/default/bgp",
+    "unique_id": "3f93e7e3-b550-4eb8-863d-e33a28eb6daa",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "zhangda@vmware.com",
+    "_create_time": 1602192528584,
+    "_last_modified_user": "zhangda@vmware.com",
+    "_last_modified_time": 1604465933164,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 2
+},
+{
+    "neighbor_address": "169.254.111.1",
+    "remote_as_num": "65500",
+    "route_filtering": [
+        {
+            "enabled": true,
+            "address_family": "IPV4"
+        }
+    ],
+    "keep_alive_time": 60,
+    "hold_down_time": 180,
+    "allow_as_in": false,
+    "maximum_hop_limit": 1,
+    "resource_type": "BgpNeighborConfig",
+    "id": "88d522b0-2ee5-11eb-afca-d15bf4e8ed4d",
+    "display_name": "88d522b0-2ee5-11eb-afca-d15bf4e8ed4d",
+    "path": "/infra/tier-0s/vmc/locale-services/default/bgp/neighbors/88d522b0-2ee5-11eb-afca-d15bf4e8ed4d",
+    "relative_path": "88d522b0-2ee5-11eb-afca-d15bf4e8ed4d",
+    "parent_path": "/infra/tier-0s/vmc/locale-services/default/bgp",
+    "unique_id": "3c76674b-8314-4a9f-a0b2-378ef0e8bc54",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "nmyohtet@vmware.com",
+    "_create_time": 1606286721452,
+    "_last_modified_user": "nmyohtet@vmware.com",
+    "_last_modified_time": 1606286721454,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 0
+}],
+"L2VPNSessions": [
+{
+    "transport_tunnels": [
+        "/infra/tier-0s/vmc/locale-services/default/ipsec-vpn-services/default/sessions/shashi-l2vpn"
+    ],
+    "enabled": true,
+    "tunnel_encapsulation": {
+        "protocol": "GRE"
+    },
+    "resource_type": "L2VPNSession",
+    "id": "shashi-tunnel",
+    "display_name": "shashi-l2vpn",
+    "path": "/infra/tier-0s/vmc/locale-services/default/l2vpn-services/default/sessions/shashi-tunnel",
+    "relative_path": "shashi-tunnel",
+    "parent_path": "/infra/tier-0s/vmc/locale-services/default/l2vpn-services/default",
+    "unique_id": "46ce6be1-9edd-4a3d-8d2d-6fbf45a2b898",
+    "marked_for_delete": false,
+    "overridden": false,
+    "_system_owned": false,
+    "_create_user": "shashir@vmware.com",
+    "_create_time": 1606474685930,
+    "_last_modified_user": "shashir@vmware.com",
+    "_last_modified_time": 1606474685931,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 0
+}],
+"L3VPNSessions": [
+{
+    "tunnel_interfaces": [
+        {
+            "ip_subnets": [
+                {
+                    "ip_addresses": [
+                        "169.254.52.1"
+                    ],
+                    "prefix_length": 22
+                }
+            ],
+            "resource_type": "IPSecVpnTunnelInterface",
+            "id": "default-tunnel-interface",
+            "display_name": "default-tunnel-interface",
+            "path": "/infra/tier-0s/vmc/locale-services/default/ipsec-vpn-services/default/sessions/1bc6aed0-09ad-11eb-8265-9ba9d5d3adbc/interfaces/default-tunnel-interface",
+            "relative_path": "default-tunnel-interface",
+            "parent_path": "/infra/tier-0s/vmc/locale-services/default/ipsec-vpn-services/default/sessions/1bc6aed0-09ad-11eb-8265-9ba9d5d3adbc",
+            "unique_id": "2290d12c-0948-4a64-974d-d2e5a8144d93",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_system_owned": false,
+            "_create_user": "zhangda@vmware.com",
+            "_create_time": 1602192528544,
+            "_last_modified_user": "zhangda@vmware.com",
+            "_last_modified_time": 1602192528546,
+            "_protection": "NOT_PROTECTED",
+            "_revision": 0
+        }
+    ],
+    "force_whitelisting": false,
+    "resource_type": "RouteBasedIPSecVpnSession",
+    "id": "1bc6aed0-09ad-11eb-8265-9ba9d5d3adbc",
+    "display_name": "DavidVPN",
+    "path": "/infra/tier-0s/vmc/locale-services/default/ipsec-vpn-services/default/sessions/1bc6aed0-09ad-11eb-8265-9ba9d5d3adbc",
+    "relative_path": "1bc6aed0-09ad-11eb-8265-9ba9d5d3adbc",
+    "parent_path": "/infra/tier-0s/vmc/locale-services/default/ipsec-vpn-services/default",
+    "unique_id": "051fa462-edf5-4e3e-8b9b-8e081c6f8271",
+    "marked_for_delete": false,
+    "overridden": false,
+    "enabled": true,
+    "local_endpoint_path": "/infra/tier-0s/vmc/locale-services/default/ipsec-vpn-services/default/local-endpoints/Public-IP1",
+    "authentication_mode": "PSK",
+    "ike_profile_path": "/infra/ipsec-vpn-ike-profiles/1bc6aed0-09ad-11eb-8265-9ba9d5d3adbc",
+    "tunnel_profile_path": "/infra/ipsec-vpn-tunnel-profiles/1bc6aed0-09ad-11eb-8265-9ba9d5d3adbc",
+    "dpd_profile_path": "/infra/ipsec-vpn-dpd-profiles/nsx-default-l3vpn-dpd-profile",
+    "compliance_suite": "NONE",
+    "connection_initiation_mode": "INITIATOR",
+    "peer_address": "61.69.226.198",
+    "peer_id": "10.1.1.222",
+    "_system_owned": false,
+    "_create_user": "zhangda@vmware.com",
+    "_create_time": 1602192528171,
+    "_last_modified_user": "zhangda@vmware.com",
+    "_last_modified_time": 1606340663789,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 12
+},
+{
+    "tunnel_interfaces": [
+        {
+            "ip_subnets": [
+                {
+                    "ip_addresses": [
+                        "169.254.111.2"
+                    ],
+                    "prefix_length": 30
+                }
+            ],
+            "resource_type": "IPSecVpnTunnelInterface",
+            "id": "default-tunnel-interface",
+            "display_name": "default-tunnel-interface",
+            "path": "/infra/tier-0s/vmc/locale-services/default/ipsec-vpn-services/default/sessions/88d4fba0-2ee5-11eb-afca-d15bf4e8ed4d/interfaces/default-tunnel-interface",
+            "relative_path": "default-tunnel-interface",
+            "parent_path": "/infra/tier-0s/vmc/locale-services/default/ipsec-vpn-services/default/sessions/88d4fba0-2ee5-11eb-afca-d15bf4e8ed4d",
+            "unique_id": "c0b896e5-b6bf-42bf-89fc-2fc500238abe",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_system_owned": false,
+            "_create_user": "nmyohtet@vmware.com",
+            "_create_time": 1606286721422,
+            "_last_modified_user": "nmyohtet@vmware.com",
+            "_last_modified_time": 1606286721423,
+            "_protection": "NOT_PROTECTED",
+            "_revision": 0
+        }
+    ],
+    "force_whitelisting": false,
+    "resource_type": "RouteBasedIPSecVpnSession",
+    "id": "88d4fba0-2ee5-11eb-afca-d15bf4e8ed4d",
+    "display_name": "cloud-vpn1",
+    "path": "/infra/tier-0s/vmc/locale-services/default/ipsec-vpn-services/default/sessions/88d4fba0-2ee5-11eb-afca-d15bf4e8ed4d",
+    "relative_path": "88d4fba0-2ee5-11eb-afca-d15bf4e8ed4d",
+    "parent_path": "/infra/tier-0s/vmc/locale-services/default/ipsec-vpn-services/default",
+    "unique_id": "621b3419-6eeb-45d1-8b62-b300063afe33",
+    "marked_for_delete": false,
+    "overridden": false,
+    "enabled": true,
+    "local_endpoint_path": "/infra/tier-0s/vmc/locale-services/default/ipsec-vpn-services/default/local-endpoints/Public-IP1",
+    "authentication_mode": "PSK",
+    "ike_profile_path": "/infra/ipsec-vpn-ike-profiles/88d4fba0-2ee5-11eb-afca-d15bf4e8ed4d",
+    "tunnel_profile_path": "/infra/ipsec-vpn-tunnel-profiles/88d4fba0-2ee5-11eb-afca-d15bf4e8ed4d",
+    "dpd_profile_path": "/infra/ipsec-vpn-dpd-profiles/nsx-default-l3vpn-dpd-profile",
+    "compliance_suite": "NONE",
+    "connection_initiation_mode": "INITIATOR",
+    "peer_address": "35.242.55.219",
+    "peer_id": "35.242.55.219",
+    "_system_owned": false,
+    "_create_user": "nmyohtet@vmware.com",
+    "_create_time": 1606286721160,
+    "_last_modified_user": "nmyohtet@vmware.com",
+    "_last_modified_time": 1606294706882,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 6
+},
+{
+    "tunnel_interfaces": [
+        {
+            "ip_subnets": [
+                {
+                    "ip_addresses": [
+                        "169.254.112.2"
+                    ],
+                    "prefix_length": 30
+                }
+            ],
+            "resource_type": "IPSecVpnTunnelInterface",
+            "id": "default-tunnel-interface",
+            "display_name": "default-tunnel-interface",
+            "path": "/infra/tier-0s/vmc/locale-services/default/ipsec-vpn-services/default/sessions/04e12120-2eea-11eb-afca-d15bf4e8ed4d/interfaces/default-tunnel-interface",
+            "relative_path": "default-tunnel-interface",
+            "parent_path": "/infra/tier-0s/vmc/locale-services/default/ipsec-vpn-services/default/sessions/04e12120-2eea-11eb-afca-d15bf4e8ed4d",
+            "unique_id": "f45f910d-cdea-4ea4-a8c6-395f4e11a0c2",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_system_owned": false,
+            "_create_user": "nmyohtet@vmware.com",
+            "_create_time": 1606286946627,
+            "_last_modified_user": "nmyohtet@vmware.com",
+            "_last_modified_time": 1606286946628,
+            "_protection": "NOT_PROTECTED",
+            "_revision": 0
+        }
+    ],
+    "force_whitelisting": false,
+    "resource_type": "RouteBasedIPSecVpnSession",
+    "id": "04e12120-2eea-11eb-afca-d15bf4e8ed4d",
+    "display_name": "cloud-vpn2",
+    "path": "/infra/tier-0s/vmc/locale-services/default/ipsec-vpn-services/default/sessions/04e12120-2eea-11eb-afca-d15bf4e8ed4d",
+    "relative_path": "04e12120-2eea-11eb-afca-d15bf4e8ed4d",
+    "parent_path": "/infra/tier-0s/vmc/locale-services/default/ipsec-vpn-services/default",
+    "unique_id": "4763d3cc-b479-48b1-8e39-a02915bef9a6",
+    "marked_for_delete": false,
+    "overridden": false,
+    "enabled": true,
+    "local_endpoint_path": "/infra/tier-0s/vmc/locale-services/default/ipsec-vpn-services/default/local-endpoints/Public-IP1",
+    "authentication_mode": "PSK",
+    "ike_profile_path": "/infra/ipsec-vpn-ike-profiles/04e12120-2eea-11eb-afca-d15bf4e8ed4d",
+    "tunnel_profile_path": "/infra/ipsec-vpn-tunnel-profiles/04e12120-2eea-11eb-afca-d15bf4e8ed4d",
+    "dpd_profile_path": "/infra/ipsec-vpn-dpd-profiles/nsx-default-l3vpn-dpd-profile",
+    "compliance_suite": "NONE",
+    "connection_initiation_mode": "INITIATOR",
+    "peer_address": "35.220.54.224",
+    "peer_id": "35.220.54.224",
+    "_system_owned": false,
+    "_create_user": "nmyohtet@vmware.com",
+    "_create_time": 1606286946412,
+    "_last_modified_user": "nmyohtet@vmware.com",
+    "_last_modified_time": 1606294654331,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 2
+},
+{
+    "tunnel_interfaces": [
+        {
+            "ip_subnets": [
+                {
+                    "ip_addresses": [
+                        "169.254.31.253"
+                    ],
+                    "prefix_length": 30
+                }
+            ],
+            "resource_type": "IPSecVpnTunnelInterface",
+            "id": "default-tunnel-interface",
+            "display_name": "default-tunnel-interface",
+            "path": "/infra/tier-0s/vmc/locale-services/default/ipsec-vpn-services/default/sessions/shashi-l2vpn/interfaces/default-tunnel-interface",
+            "relative_path": "default-tunnel-interface",
+            "parent_path": "/infra/tier-0s/vmc/locale-services/default/ipsec-vpn-services/default/sessions/shashi-l2vpn",
+            "unique_id": "201e42ce-d679-4919-998b-d9db1b9b9c26",
+            "marked_for_delete": false,
+            "overridden": false,
+            "_system_owned": false,
+            "_create_user": "shashir@vmware.com",
+            "_create_time": 1606474630298,
+            "_last_modified_user": "shashir@vmware.com",
+            "_last_modified_time": 1606474630299,
+            "_protection": "NOT_PROTECTED",
+            "_revision": 0
+        }
+    ],
+    "force_whitelisting": false,
+    "resource_type": "RouteBasedIPSecVpnSession",
+    "id": "shashi-l2vpn",
+    "display_name": "shashi-l2vpn",
+    "path": "/infra/tier-0s/vmc/locale-services/default/ipsec-vpn-services/default/sessions/shashi-l2vpn",
+    "relative_path": "shashi-l2vpn",
+    "parent_path": "/infra/tier-0s/vmc/locale-services/default/ipsec-vpn-services/default",
+    "unique_id": "c62fc13a-b759-42ac-b7c6-50fcc71c13ab",
+    "marked_for_delete": false,
+    "overridden": false,
+    "enabled": true,
+    "local_endpoint_path": "/infra/tier-0s/vmc/locale-services/default/ipsec-vpn-services/default/local-endpoints/Private-IP1",
+    "authentication_mode": "PSK",
+    "ike_profile_path": "/infra/ipsec-vpn-ike-profiles/shashi-ike-profile",
+    "tunnel_profile_path": "/infra/ipsec-vpn-tunnel-profiles/shashi-tunnel-profile",
+    "dpd_profile_path": "/infra/ipsec-vpn-dpd-profiles/nsx-default-l3vpn-dpd-profile",
+    "compliance_suite": "NONE",
+    "connection_initiation_mode": "INITIATOR",
+    "tcp_mss_clamping": {
+        "direction": "NONE"
+    },
+    "peer_address": "52.34.54.5",
+    "peer_id": "52.34.54.5",
+    "_system_owned": false,
+    "_create_user": "shashir@vmware.com",
+    "_create_time": 1606474630063,
+    "_last_modified_user": "shashir@vmware.com",
+    "_last_modified_time": 1606474630066,
+    "_protection": "NOT_PROTECTED",
+    "_revision": 0
+}]}
