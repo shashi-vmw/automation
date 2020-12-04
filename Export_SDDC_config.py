@@ -344,8 +344,14 @@ count = 0
 for l3vpn in l3vpns:
     if l3vpn["_create_user"]!= "admin" and l3vpn["_create_user"]!="admin;admin" and l3vpn["_create_user"]!="system":
 	    count = count + 1
+
 for l3vpn in l3vpns:
     if l3vpn["_create_user"]!= "admin" and l3vpn["_create_user"]!="admin;admin" and l3vpn["_create_user"]!="system":
+        session_id = l3vpn["id"]
+        l3vpnsessionpskurl = '%s/policy/api/v1/infra/tier-0s/vmc/locale-services/default/ipsec-vpn-services/default/sessions/%s?action=show_sensitive_data' %(srevproxyurl,session_id)
+        l3vpnpskresponse = requests.get(l3vpnsessionpskurl,headers=headers)
+        l3vpsk = json.loads(l3vpnpskresponse.text)
+        l3vpn["psk"] = l3vpsk["psk"]
         print(json.dumps(l3vpn,indent=4),end="")
         if(count-1 > index):
             print(",")
