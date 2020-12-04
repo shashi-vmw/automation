@@ -165,8 +165,8 @@ for l3vpn in l3vpns:
         payload["peer_address"]=l3vpn["peer_address"]
     if l3vpn.get("peer_id"):
         payload["peer_id"]=l3vpn["peer_id"]	
-    #if l3vpn.get("psk"):
-    payload["psk"]='VMware1!'
+    if l3vpn.get("psk"):
+    payload["psk"]=l3vpn["psk"]
     payload["resource_type"]=l3vpn["resource_type"]
     if l3vpn.get("tunnel_profile_path"):
         payload["tunnel_profile_path"]=l3vpn["tunnel_profile_path"]
