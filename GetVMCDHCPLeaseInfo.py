@@ -92,19 +92,20 @@ vmnameipmac["name"] = ''
 vmnameipmac["mac"] = ''
 
 for vm in vms:
-    vmname = vm["name"]
-    vmid = vm["vm"]
-    vmdetailsurl = vcvmurl + "/"+vmid
-    vcvmdetailsresp = requests.get(vmdetailsurl,headers=vcheader,data=payload)
-    vmdetails = json.loads(vcvmdetailsresp.text)
-    vmnameipmac = {}
-    vmnameipmac["name"] = vm["name"]
-    vmnameipmac["mac"] = vmdetails["nics"]["4000"]["mac_address"]
-    #print(vmnameipmac)
-    vmmacdata.append(vmnameipmac)
-    #print(vmmacdata)
-    #vmnameipmac["name"] = ''
-    #vmnameipmac["mac"] = ''
+    if vm["name"]:
+	vmname = vm["name"]
+        vmid = vm["vm"]
+        vmdetailsurl = vcvmurl + "/"+vmid
+        vcvmdetailsresp = requests.get(vmdetailsurl,headers=vcheader,data=payload)
+        vmdetails = json.loads(vcvmdetailsresp.text)
+        vmnameipmac = {}
+        vmnameipmac["name"] = vm["name"]
+        vmnameipmac["mac"] = vmdetails["nics"]["4000"]["mac_address"]
+        #print(vmnameipmac)
+        vmmacdata.append(vmnameipmac)
+        #print(vmmacdata)
+        #vmnameipmac["name"] = ''
+        #vmnameipmac["mac"] = ''
 vmipmacdata = json.dumps(vmmacdata)
 #print("data:    .........."+vmipmacdata)
 vmipmacdata = json.loads(vmipmacdata)
